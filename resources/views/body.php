@@ -1,7 +1,4 @@
 <?php include $components.'navbar.php'; ?>
-<h1>Hello, world!</h1>
+<?php include $components.'p1_car.php'; ?>
+<?php include $components.'p1_car.php'; ?>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
