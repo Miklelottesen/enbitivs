@@ -1,4 +1,4 @@
-<?php include 'resources/views/components/navbar.php'; ?>
+<?php include $components.'navbar.php'; ?>
 <h1>Hello, world!</h1>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
