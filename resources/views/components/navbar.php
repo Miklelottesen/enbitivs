@@ -30,9 +30,6 @@
             </ul>
           </li>
         </ul>
-        <ul class="nav navbar-nav navbar-default">
-          <li><a href="#">A middle link</a></li>
-        </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">DA</a></li>
           <li><a href="#">EN</a></li>
