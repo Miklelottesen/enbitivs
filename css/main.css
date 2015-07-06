@@ -3,3 +3,8 @@
 	max-width:100vw!important;
 	margin:0!important;
 }
+
+.item {
+	height: 80vh!important;
+	margin-top: 10vh!important;
+}
