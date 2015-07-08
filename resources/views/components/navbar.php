@@ -1,5 +1,5 @@
  
-  <nav class="navbar-fixed-top navbar-default">
+  <nav id="navbar" class="navbar-fixed-top navbar-default">
     <div class="container-fluid col-md-1"></div>
     <div class="container-fluid col-md-10">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -10,26 +10,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Brand</a><!-- LOGO -->
+        <a class="navbar-brand" href="#">enbit.dk</a><!-- LOGO -->
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-right navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About us</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">DA</a></li>
@@ -39,4 +29,4 @@
     </div><!-- /.container-fluid -->
     <div class="container-fluid col-md-1"></div>
   </nav>
-  <div class="navbar navbar-default"></div><!-- Pseudo non-fixed navbar to push content down -->
+<!--  <div class="navbar navbar-default"></div> -->

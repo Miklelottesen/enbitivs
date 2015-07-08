@@ -11,12 +11,12 @@
     <div  class="item active">
       <img src="img/responsive.jpg" alt="...">
       <div class="carousel-caption">
-        <h2>This is the first slider, which links to:</h2>
-        <ul>
-          <li><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="1" href="">Slider 2</a></li>
-          <li><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="2" href="">Slider 3</a></li>
-          <li><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="3" href="">Slider 4</a></li>
-        </ul>
+        <h4>Search engine optimization</h4>
+        <h2><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="1" href=""><i class="fa fa-arrow-circle-o-right fa-2x"></i></a>Get more clients</h2>
+        <h4>Tailor-made solutions</h4>
+        <h2><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="2" href=""><i class="fa fa-arrow-circle-o-right fa-2x"></i></a>Stand out</h2>
+        <h4>Get tons of action</h4>
+        <h2><a class="showSlider" data-target="#carousel-example-generic" data-slide-to="3" href=""><i class="fa fa-arrow-circle-o-right fa-2x"></i></a>No more erectile dysfunction</h2>
       </div>
     </div>
     <div class="item">

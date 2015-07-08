@@ -12,8 +12,16 @@
 	padding: 0!important;
 }
 
-.carousel-caption {
-	top: 10vh!important;
-	left: 1vw!important;
-	width:auto!important;
+#navbar {
+	background-color: rgba(255,255,255,0.5);
+}
+
+#introHeader {
+	height: 25vh!important;
+	background-color: red!important;
+	padding-top:100px!important;
+}
+
+#services {
+	margin-top: 100px!important;
 }
