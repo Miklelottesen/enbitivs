@@ -1,27 +1,41 @@
-#landing {
-	max-height:100vh!important;
-	max-width:100vw!important;
-	min-height:100vh!important;
-	height:100vh!important;
-	margin:0!important;
+/*****************************
+	GENERAL
+*****************************/
+.text-justify {
+	text-align:justify!important;
 }
 
-.item {
-	height: 80vh!important;
-	margin-top: 10vh!important;
-	padding: 0!important;
-}
-
+/*****************************
+	NAVBAR
+*****************************/
 #navbar {
 	background-color: rgba(255,255,255,0.5);
 }
 
+/*****************************
+	P1 - INTRO HEADER
+*****************************/
 #introHeader {
-	height: 25vh!important;
-	background-color: red!important;
+	height: 30vh!important;
 	padding-top:100px!important;
+	background-image: url('http://www.hd-wallpapers9.com/gallery/Photographs/Bg%20Desktop%20Wallpapers/Bg%20Desktop%20Wallpapers-027.jpg');
 }
 
+/*****************************
+	P2 - SERVICES
+*****************************/
 #services {
-	margin-top: 100px!important;
+	margin-top: 80px!important;
+}
+
+#services h2 {
+	margin-bottom:20px!important;
+}
+
+#services h3 {
+	font-size:2em;
+}
+
+#services p {
+	font-size:1.3em;
 }
