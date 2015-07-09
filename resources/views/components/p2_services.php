@@ -3,6 +3,7 @@
 		<h2>What we do</h2>
 		<a href="#">
 			<div class="col-sm-3 well">
+                <i class="fa fa-diamond fa-2x"></i>
 				<h3>Premium websites</h3>
 				<p>Stand out from your competitors with our tailor made solutions, uniquely designed for flexible, ease of use.</p>
 			</div>
