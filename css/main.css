@@ -21,6 +21,14 @@
 	color:#aaa!important;
 }
 
+/*****************************
+	FOOTER
+*****************************/
+footer {
+	background-color:#000!important;
+	color:#fff!important;
+}
+
 
 /*****************************
 	P1 - INTRO HEADER
@@ -80,6 +88,7 @@
 #services a {
 	outline:1px solid #aaa!important;
 	color:#000!important;
+	transition: color 0.8s;
 }
 #services a:hover {
 	color:#007!important;
@@ -88,6 +97,7 @@
 	min-height: 300px!important;
 	background-color:#fff!important;
 	transition: background-color 0.5s;
+	border-color: #ccc!important;
 }
 #services .well:hover {
 	background-color:#eee!important;
