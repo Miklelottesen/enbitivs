@@ -41,6 +41,12 @@ footer {
 	text-align: center;
 	color:#fff!important;
 }
+#intro hr{
+    color: #0e0e0e;
+    background-color: #6d6d6d;
+    height: 5px;
+    width: 5%;
+}
 .arrow_box {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -71,43 +77,8 @@ footer {
 	P2 - SERVICES
 *****************************/
 
+
 #services {
-	margin-top: 0px!important;
-}
-
-#services h2 {
-	margin-bottom:40px!important;
-}
-
-#services h3 {
-	font-size:2em;
-}
-
-#services p {
-	font-size:1.3em;
-}
-#services a {
-	outline:1px solid #aaa!important;
-	color:#000!important;
-	transition: color 0.8s;
-}
-#services a:hover {
-	color:#007!important;
-}
-#services .well {
-	min-height: 300px!important;
-	background-color:#fff!important;
-	transition: background-color 0.5s;
-	border-color: #ccc!important;
-}
-#services .well:hover {
-	background-color:#eee!important;
-}
-
-/*****************************
-	P3 - PORTFOLIO
-*****************************/
-#portfolio {
 	background-color:#122b40!important;
 	margin-top: 60px!important;
 }
@@ -134,36 +105,42 @@ footer {
     display: block;
     content: " ";
 }
-#portfolio h2 {
+#services h2 {
     margin-bottom:40px!important;
     color: white;
 }
 
-#portfolio h3 {
+#services h3 {
     font-size:2em;
     color:white;
 }
 
-#portfolio p {
+#services p {
 font-size:1.3em;
     color:white;
 }
-#portfolio i {
+#services i {
     color:white;
 }
-#portfolio a {
+#services a {
 outline:1px solid #aaa!important;
 color:#000!important;
 }
-#portfolio a:hover {
+#services a:hover {
 color:#007!important;
 }
-#portfolio .well {
+#services hr{
+    color: #0e0e0e;
+    background-color: #ebebeb;
+    height: 5px;
+    width: 5%;
+}
+#services .well {
 min-height: 300px!important;
 background-color:#122b40!important;
 transition: background-color 0.5s;
     border: none!important;
 }
-#portfolio .well:hover {
+#services .well:hover {
 background-color: #162c45 !important;
 }
