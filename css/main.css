@@ -70,6 +70,29 @@ footer {
 /*****************************
 	P2 - SERVICES
 *****************************/
+.arrowBot_box {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 80px;
+    padding-top: 30px;
+    background-position: bottom;
+}
+.arrowBot_box:after {
+    position: absolute;
+    left: 30vh;
+    bottom: 0;
+    right: 30vh;
+    border-top: 40px solid #122b40;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    display: block;
+    content: " ";
+}
 #services {
 	margin-top: 0px!important;
 }
@@ -110,6 +133,7 @@ footer {
 	background-color:#122b40!important;
 	margin-top: 60px!important;
 }
+<<<<<<< Updated upstream
 .arrowTop_box {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -133,6 +157,8 @@ footer {
     display: block;
     content: " ";
 }
+=======
+>>>>>>> Stashed changes
 
 #portfolio h2 {
     margin-bottom:40px!important;
