@@ -1,6 +1,7 @@
 
-<div id="services" class="container">
+<div id="portfolio" class="container">
 	<section class="row text-center">
+<<<<<<< HEAD
 		<h2>Our projects</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -45,5 +46,8 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+=======
+
+>>>>>>> origin/master
 	</section>
 </div>

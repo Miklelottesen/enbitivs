@@ -1,7 +1,8 @@
-<section id="portfolio" class="container-fluid arrowTop_box">
-    <div id="portfolio" class="container">
+<section id="services" class="container-fluid">
+    <div id="services" class="container">
         <section class="row text-center">
             <h2>What we do</h2>
+            <hr>
             <a href="#">
                 <div class="col-sm-3 well">
                     <i class="fa fa-diamond fa-4x"></i>
