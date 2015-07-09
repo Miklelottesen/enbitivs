@@ -1,5 +1,5 @@
-<div id="introHeader" class="container-fluid">
+<div id="introHeader" class="container-fluid arrow_box">
 	<div class="row">
-		<h2>This is our amazing intro-header!!! Buy our shit!!</h2>
+		<h2>enbit.dk <small>Websites, apps and more...</small></h2>
 	</div>
 </div>

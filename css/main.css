@@ -9,27 +9,65 @@
 	NAVBAR
 *****************************/
 #navbar {
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(0,0,0,0.9);
 }
+.nav .active * {
+	background-color: rgba(70,70,70,0.9)!important;
+}
+#navbar a {
+	color:#fff!important;
+}
+#navbar a:hover {
+	color:#aaa!important;
+}
+
 
 /*****************************
 	P1 - INTRO HEADER
 *****************************/
 #introHeader {
 	height: 30vh!important;
-	padding-top:100px!important;
-	background-image: url('http://www.hd-wallpapers9.com/gallery/Photographs/Bg%20Desktop%20Wallpapers/Bg%20Desktop%20Wallpapers-027.jpg');
+	padding-top:10vh!important;
+	background-color:transparent!important;
+	color:#fff!important;
+	text-align: center;
+	color:#fff!important;
+}
+.arrow_box {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 60px;
+	padding-top: 30px;
+	background-position: center;
+	background-image: url('http://enbit.dk/examples/webshop/wp-content/uploads/2015/07/193yayay135-gold-copy-min.jpg');
+}
+.arrow_box:after {
+	position: absolute;
+	left: 20vh;
+	bottom: 0;
+	right: 20vh;
+	border-bottom: 40px solid white;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	display: block;
+	content:" ";
 }
 
 /*****************************
 	P2 - SERVICES
 *****************************/
 #services {
-	margin-top: 80px!important;
+	margin-top: 0px!important;
 }
 
 #services h2 {
-	margin-bottom:20px!important;
+	margin-bottom:40px!important;
 }
 
 #services h3 {
@@ -38,4 +76,42 @@
 
 #services p {
 	font-size:1.3em;
+}
+#services a {
+	outline:1px solid #aaa!important;
+}
+#services .well {
+	min-height: 300px!important;
+}
+
+/*****************************
+	P3 - PORTFOLIO
+*****************************/
+#portfolio {
+	background-color:gray!important;
+	margin-top: 60px!important;
+}
+.arrowTop_box {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 60px;
+	padding-top: 30px;
+	background-position: bottom;
+}
+.arrowTop_box:after {
+	position: absolute;
+	left: 20vh;
+	top: 0;
+	right: 20vh;
+	border-top: 40px solid white;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	display: block;
+	content:" ";
 }
