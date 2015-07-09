@@ -1,3 +1,5 @@
-<section class="container-fluid row">
-	<p>We do shit, so you can get shit, so you can earn shit. Without shit, is not the very essence of life corrupt? What are we without those brown, tasty delights? Nothing! THAT'S what we do..
+<section class="container">
+	<div class="row">
+		<p>We are a web agency located in Aarhus, Denmark. We create web- and app based solutions, tailor-made for our clients to make them stand out, and allow for flexibility.</p>
+	</div>
 </section>

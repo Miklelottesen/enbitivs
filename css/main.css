@@ -124,9 +124,9 @@ footer {
 }
 .arrowTop_box:after {
     position: absolute;
-    left: 20vh;
+    left: 50%;
     top: 0;
-    right: 20vh;
+    right: 50%;
     border-top: 40px solid white;
     border-left: 80px solid transparent;
     border-right: 80px solid transparent;
