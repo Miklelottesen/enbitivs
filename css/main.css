@@ -162,6 +162,7 @@ color:#007!important;
 min-height: 300px!important;
 background-color:#122b40!important;
 transition: background-color 0.5s;
+    border: none!important;
 }
 #portfolio .well:hover {
 background-color: #162c45 !important;
