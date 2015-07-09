@@ -79,9 +79,18 @@
 }
 #services a {
 	outline:1px solid #aaa!important;
+	color:#000!important;
+}
+#services a:hover {
+	color:#007!important;
 }
 #services .well {
 	min-height: 300px!important;
+	background-color:#fff!important;
+	transition: background-color 0.5s;
+}
+#services .well:hover {
+	background-color:#eee!important;
 }
 
 /*****************************
