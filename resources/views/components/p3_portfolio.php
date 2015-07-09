@@ -1,4 +1,4 @@
-<<section id="portfolio" class="container-fluid arrowTop_box">
+<section id="portfolio" class="container-fluid arrowTop_box">
     <div id="portfolio" class="container">
         <section class="row text-center">
             <h2>What we do</h2>
