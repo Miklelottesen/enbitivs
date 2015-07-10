@@ -73,6 +73,14 @@ footer {
 	content:" ";
 }
 
+#WhiteTrianglePath1 {
+    fill: green;
+    stroke: blue;
+}
+#WhiteTrianglePath2 {
+    fill: #666;
+    stroke: #666;
+}
 /*****************************
 	P2 - SERVICES
 *****************************/
@@ -80,7 +88,7 @@ footer {
 
 #services {
 	background-color:#122b40!important;
-	margin-top: 60px!important;
+
 }
 .arrowTop_box {
 	-webkit-background-size: cover;
@@ -143,4 +151,13 @@ transition: background-color 0.5s;
 }
 #services .well:hover {
 background-color: #162c45 !important;
+}
+
+#BlueTrianglePath1 {
+    fill: #122b40;
+    stroke: #122b40;
+}
+#BlueTrianglePath2 {
+    fill: #165274;
+    stroke: #165274;
 }
