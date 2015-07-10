@@ -91,12 +91,15 @@ footer {
 }
 
 #WhiteTrianglePath1 {
-    fill: green;
-    stroke: blue;
+    fill: white;
+    stroke: white;
 }
 #WhiteTrianglePath2 {
-    fill: #666;
-    stroke: #666;
+    fill: #c5c5c5;
+    stroke: #c5c5c5;
+}
+#TriangleShadow{
+    background-color: #122b40;
 }
 /*****************************
 	P2 - SERVICES
