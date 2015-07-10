@@ -90,8 +90,13 @@ border-left-color: #111111;
     -moz-transform: translateY(0px);
     transform: translateY(0px);
 }
+hr.dividerr {
+    transform: rotate(90deg);
+    color: white;
+    width: 30px;
+    padding-top:7px;
 
-
+}
 /*****************************
 	FOOTER
 *****************************/

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc84a2-9580-4f10-8694-124ca1bf2359" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/head.php" afterPath="$PROJECT_DIR$/resources/views/head.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/components/navbar.php" afterPath="$PROJECT_DIR$/resources/views/components/navbar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="enbitivs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +92,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38990825" vertical-offset="1365" max-vertical-offset="3690">
-              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.71100914" vertical-offset="975" max-vertical-offset="3765">
+              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/navbar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="555">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -123,6 +134,7 @@
         <option value="$PROJECT_DIR$/resources/views/components/p1_header.php" />
         <option value="$PROJECT_DIR$/resources/views/components/p3_portfolio.php" />
         <option value="$PROJECT_DIR$/resources/views/head.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/navbar.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -420,10 +432,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="555">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38990825" vertical-offset="1365" max-vertical-offset="3690">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.71100914" vertical-offset="975" max-vertical-offset="3765">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
           <folding />
         </state>
       </provider>
