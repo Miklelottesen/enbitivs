@@ -2,6 +2,7 @@
 <div id="portfolio" class="container">
 	<section class="row text-center">
 		<h2>Our projects</h2>
+        <hr>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">

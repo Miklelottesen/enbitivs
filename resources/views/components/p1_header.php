@@ -3,3 +3,4 @@
 		<h2>enbit.dk <small>Websites, apps and more...</small></h2>
 	</div>
 </div>
+<div class="separation-bottom"></div>

@@ -78,28 +78,34 @@ footer {
 	background-position: center;
 	background-image: url('http://enbit.dk/examples/webshop/wp-content/uploads/2015/07/193yayay135-gold-copy-min.jpg');
 }
-.arrow_box:after {
-	position: absolute;
-	left: 20vh;
-	bottom: 0;
-	right: 20vh;
-	border-bottom: 40px solid white;
-	border-left: 80px solid transparent;
-	border-right: 80px solid transparent;
-	display: block;
-	content:" ";
+
+.separation-bottom {
+    background-image: url(http://daisoras.lt/bundles/front/img/bottom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    margin-top: -90px;
+    overflow: hidden;
 }
 
 #WhiteTrianglePath1 {
     fill: white;
     stroke: white;
+
 }
 #WhiteTrianglePath2 {
-    fill: #c5c5c5;
-    stroke: #c5c5c5;
+    fill: #d6d6d6;
+    stroke: #d6d6d6;
 }
 #TriangleShadow{
     background-color: #122b40;
+}
+#TriangleContainer{
+    line-height: 0!important;
 }
 /*****************************
 	P2 - SERVICES
@@ -108,6 +114,7 @@ footer {
 
 #services {
 	background-color:#122b40!important;
+    padding-top: 5vh;
 
 }
 .arrowTop_box {
@@ -180,4 +187,14 @@ background-color: #162c45 !important;
 #BlueTrianglePath2 {
     fill: #165274;
     stroke: #165274;
+}
+
+/*****************************
+	P3 - PORTFOLIO
+*****************************/
+
+#portfolio {
+    background-color: #fff!important;
+    padding-top: 5vh;
+
 }
