@@ -1,5 +1,5 @@
 
-<div id="portfolio" class="container">
+<div id="portfolio" class="container-fluid">
 	<section class="row text-center">
 		<h2>Our projects</h2>
         <hr>

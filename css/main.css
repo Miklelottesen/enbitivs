@@ -58,6 +58,9 @@ footer {
 	text-align: center;
 	color:#fff!important;
 }
+#intro {
+    padding-top: 5vh;
+}
 #intro hr{
     color: #0e0e0e;
     background-color: #6d6d6d;
@@ -80,7 +83,7 @@ footer {
 }
 
 .separation-bottom {
-    background-image: url(http://daisoras.lt/bundles/front/img/bottom.svg);
+    background-image: url(/img/bottom.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -102,7 +105,7 @@ footer {
     stroke: #d6d6d6;
 }
 #TriangleShadow{
-    background-color: #122b40;
+    background-color: #00415A;
 }
 #TriangleContainer{
     line-height: 0!important;
@@ -113,32 +116,9 @@ footer {
 
 
 #services {
-	background-color:#122b40!important;
+	background-color:#00415A!important;
     padding-top: 5vh;
 
-}
-.arrowTop_box {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-	padding: 60px;
-	padding-top: 30px;
-	background-position: bottom;
-}
-.arrowTop_box:after {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    right: 50%;
-    border-top: 40px solid white;
-    border-left: 80px solid transparent;
-    border-right: 80px solid transparent;
-    display: block;
-    content: " ";
 }
 #services h2 {
     margin-bottom:40px!important;
@@ -172,21 +152,21 @@ color:#007!important;
 }
 #services .well {
 min-height: 300px!important;
-background-color:#122b40!important;
+background-color:#00415A!important;
 transition: background-color 0.5s;
     border: none!important;
 }
 #services .well:hover {
-background-color: #162c45 !important;
+background-color: #005577 !important;
 }
 
 #BlueTrianglePath1 {
-    fill: #122b40;
-    stroke: #122b40;
+    fill: #00415A;
+    stroke: #00415A;
 }
 #BlueTrianglePath2 {
-    fill: #165274;
-    stroke: #165274;
+    fill: #00719C;
+    stroke: #00719C;
 }
 
 /*****************************
