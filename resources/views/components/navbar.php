@@ -20,8 +20,7 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">About us</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
+          <li class="divider-vertical"></li>
           <li><a href="#">DA</a></li>
           <li><a href="#">EN</a></li>
         </ul>
