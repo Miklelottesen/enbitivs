@@ -23,7 +23,7 @@
 	$lang['da']['p1']['introtitle'] = 'Hvem vi er';
 	$lang['da']['p1']['introtext'] = 'Vi er et web bureau i Aarhus. Vi udvikler web- og app-baserede løsninger, skræddersyet til vores klienter, for at de kan skille sig ud med vores simple, flexible produkter.';
     $lang['da']['p1']['introcall'] = 'You’re one step from getting it right';
-    $lang['en']['p1']['introbutton'] = 'Let\'s talk';
+    $lang['da']['p1']['introbutton'] = 'Let\'s talk';
 
 	// P2_services - en
 	$lang['en']['p2']['servicestitle'] = 'What we do';
