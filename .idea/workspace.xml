@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc84a2-9580-4f10-8694-124ca1bf2359" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/components/p5_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/body.php" afterPath="$PROJECT_DIR$/resources/views/body.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/components/footer.php" afterPath="$PROJECT_DIR$/resources/views/components/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/components/p1_intro.php" afterPath="$PROJECT_DIR$/resources/views/components/p1_intro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/components/p4_about.php" afterPath="$PROJECT_DIR$/resources/views/components/p4_about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="enbitivs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +70,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.844904" vertical-offset="4543" max-vertical-offset="5220">
-              <caret line="341" column="17" selection-start-line="341" selection-start-column="17" selection-end-line="341" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.86706054" vertical-offset="4558" max-vertical-offset="5250">
+              <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,8 +107,8 @@
         <option value="$PROJECT_DIR$/resources/views/components/footer.php" />
         <option value="$PROJECT_DIR$/resources/views/body.php" />
         <option value="$PROJECT_DIR$/resources/views/components/p4_about.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/resources/views/components/p5_contact.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -473,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.844904" vertical-offset="4543" max-vertical-offset="5220">
-          <caret line="341" column="17" selection-start-line="341" selection-start-column="17" selection-end-line="341" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.86706054" vertical-offset="4558" max-vertical-offset="5250">
+          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
           <folding />
         </state>
       </provider>
