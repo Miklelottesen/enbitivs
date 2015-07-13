@@ -17,12 +17,11 @@
       <div class="collapse navbar-right navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#"><?php echo $lang[$la]['nav']['home']; ?></a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About us</a></li>
+          <li><a href="#"><?php echo $lang[$la]['nav']['services']; ?></a></li>
+          <li><a href="#"><?php echo $lang[$la]['nav']['portfolio']; ?></a></li>
+          <li><a href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
             <li><hr class="dividerr"></li>
-          <li><a href="#">DA</a></li>
-          <li><a href="#">EN</a></li>
+          <li><a href="#"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

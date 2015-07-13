@@ -1,8 +1,8 @@
 <section id="intro" class="container">
 	<div class="row text-center">
-        <h2>Who we are</h2>
+        <h2><?php echo $lang[$la]['p1']['introtitle'];?></h2>
         <hr>
-		<p class="lead">We are a web agency located in Aarhus, Denmark. We create web- and app based solutions, tailor-made for our clients to make them stand out, and allow for flexibility.</p>
+		<p class="lead"><?php echo $lang[$la]['p1']['introtext'];?></p>
 	</div>
 </section>
         <div id="TriangleContainer">

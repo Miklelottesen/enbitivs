@@ -18,7 +18,7 @@
 	$lang['en']['p1']['introtext'] = 'We are a web agency located in Aarhus, Denmark. We create web- and app based solutions, tailor-made for our clients to make them stand out, and allow for flexibility.';
 	// P1_header/intro - da
 	$lang['da']['p1']['slogan'] = 'Websites, apps og mere..';
-	$lang['da']['p1']['introtitle'] = 'Hvem er vi?';
+	$lang['da']['p1']['introtitle'] = 'Hvem vi er';
 	$lang['da']['p1']['introtext'] = 'Vi er et web bureau i Aarhus. Vi udvikler web- og app-baserede løsninger, skræddersyet til vores klienter, for at de kan skille sig ud med vores simple, flexible produkter.';
 
 	// P2_services - en
@@ -40,23 +40,23 @@
 	$lang['en']['p2']['supporttitle'] = 'Support';
 	$lang['en']['p2']['supporttext'] = "When we've delivered our product, we will keep in touch to ensure that everything works, and make imporovements based on usage statistics.";
 	// P2_services - en
-	$lang['en']['p2']['servicestitle'] = 'Hvad laver vi?';
-	$lang['en']['p2']['premiumtitle'] = 'Premium websites';
-	$lang['en']['p2']['premiumtext'] = 'Skil dig ud fra dine konkurrenter med vores skræddersyede løsninger, som er fleksible og designet til at dække dine behov.';
-	$lang['en']['p2']['apptitle'] = 'App-udvikling';
-	$lang['en']['p2']['apptext'] = 'Hvis din virksomhed har brug for en app, laver vi den. Vi udvikler apps til Android of iPhone.';
-	$lang['en']['p2']['seotitle'] = 'Bliv opdaget';
-	$lang['en']['p2']['seotext'] = 'Med <i>search engine optimization</i>, sikrer vi at din website kommer øverst blandt søgeresultaterne.';
-	$lang['en']['p2']['redesigntitle'] = 'Re-design';
-	$lang['en']['p2']['redesigntext'] = 'Hvis du mangler en ny website, laver vi den baseret på hvad der allerede er godt på din nuværende site, og forbedrer hvor der er behov.';
-	$lang['en']['p2']['printtitle'] = 'Tryk';
-	$lang['en']['p2']['printtext'] = 'Med pæne brochurer og visitkort, vil dine kunder vender tilbage til dig.';
-	$lang['en']['p2']['shoptitle'] = 'Web shop';
-	$lang['en']['p2']['shoptext'] = 'Vores skræddersyede e-commerce løsninger passer til alle tænkelige anveldelsesformer. Forøg dit salg og dit overblik.';
-	$lang['en']['p2']['biztitle'] = 'Virksomhedsløsninger';
-	$lang['en']['p2']['biztext'] = 'Vi kan lave applikationer til personale management, regnskabshåndtering eller hvad end din virksomhed har brug for, for at køre flydende.';
-	$lang['en']['p2']['supporttitle'] = 'Support';
-	$lang['en']['p2']['supporttext'] = "Når vi har leveret vores produkt, holder vi kontakten for at sikre os at alt virker optimalt, og for at lave forbedringer baseret på brugsstatistikker.";
+	$lang['da']['p2']['servicestitle'] = 'Hvad vi tilbyder';
+	$lang['da']['p2']['premiumtitle'] = 'Premium websites';
+	$lang['da']['p2']['premiumtext'] = 'Skil dig ud fra dine konkurrenter med vores skræddersyede løsninger, som er fleksible og designet til at dække dine behov.';
+	$lang['da']['p2']['apptitle'] = 'App-udvikling';
+	$lang['da']['p2']['apptext'] = 'Hvis din virksomhed har brug for en app, laver vi den. Vi udvikler apps til Android of iPhone.';
+	$lang['da']['p2']['seotitle'] = 'Bliv opdaget';
+	$lang['da']['p2']['seotext'] = 'Med <i>search engine optimization</i>, sikrer vi at din website kommer øverst blandt søgeresultaterne.';
+	$lang['da']['p2']['redesigntitle'] = 'Re-design';
+	$lang['da']['p2']['redesigntext'] = 'Hvis du mangler en ny website, laver vi den baseret på hvad der allerede er godt på din nuværende site, og forbedrer hvor der er behov.';
+	$lang['da']['p2']['printtitle'] = 'Tryk';
+	$lang['da']['p2']['printtext'] = 'Med pæne brochurer og visitkort, vil dine kunder vender tilbage til dig.';
+	$lang['da']['p2']['shoptitle'] = 'Web shop';
+	$lang['da']['p2']['shoptext'] = 'Vores skræddersyede e-commerce løsninger passer til alle tænkelige anveldelsesformer. Forøg dit salg og dit overblik.';
+	$lang['da']['p2']['biztitle'] = 'Virksomhedsløsninger';
+	$lang['da']['p2']['biztext'] = 'Vi kan lave applikationer til personale management, regnskabshåndtering eller hvad end din virksomhed har brug for, for at køre flydende.';
+	$lang['da']['p2']['supporttitle'] = 'Support';
+	$lang['da']['p2']['supporttext'] = "Når vi har leveret vores produkt, holder vi kontakten for at sikre os at alt virker optimalt, og for at lave forbedringer baseret på brugsstatistikker.";
 
-	
+
 ?>
