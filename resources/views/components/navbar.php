@@ -21,7 +21,7 @@
           <li><a href="#"><?php echo $lang[$la]['nav']['portfolio']; ?></a></li>
           <li><a href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
             <li><hr class="dividerr"></li>
-          <li><a href="#"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
+          <li><a href="resources/changelang.php?lang=<?php echo $la; ?>"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
