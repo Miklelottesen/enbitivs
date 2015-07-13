@@ -1,8 +1,10 @@
 <?php
 	include 'resources/paths.php';
+	include 'resources/langdetect.php';
+	include 'resources/strings.php';
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $la; ?>">
   <head>
     <?php include $views.'head.php'; ?>
   </head>
