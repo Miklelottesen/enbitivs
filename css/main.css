@@ -330,7 +330,7 @@ background-color: #005577 !important;
     position: relative;
     margin: 0 auto;
     background: #fff url("../img/lettertop.png") repeat-x;
-    max-width: 380px;
+    max-width: 60vh;
     padding: 40px;
 
 }
@@ -341,5 +341,5 @@ label{
     background: #272727 url("../img/postbox.png") no-repeat center bottom;
     padding-bottom: 30vh;
     padding-top: 5vh;
-
+    background-size:90vh;
 }
