@@ -177,10 +177,12 @@ footer {
 #services {
 	background-color:#00415A!important;
     padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
 
 }
 #services h2 {
-    margin-bottom:40px!important;
+    margin-bottom: 40px!important;
     color: white;
 }
 
