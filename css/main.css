@@ -166,7 +166,7 @@ footer {
 #TriangleShadow{
     background-color: #00415A;
 }
-#TriangleContainer{
+.TriangleContainer{
     line-height: 0!important;
 }
 /*****************************
@@ -228,6 +228,9 @@ background-color: #005577 !important;
 #BlueTrianglePath2 {
     fill: #00719C;
     stroke: #00719C;
+}
+#BlackTriangleShadow{
+    background-color: #000;
 }
 
 /*****************************
