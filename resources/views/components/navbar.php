@@ -18,8 +18,8 @@
         <ul class="nav navbar-nav">
           <li class="active"><a id="topLink" href="#"><?php echo $lang[$la]['nav']['home']; ?></a></li>
           <li><a id="servicesLink" href="#"><?php echo $lang[$la]['nav']['services']; ?></a></li>
-          <li><a id="portfolioLink" href="#"><?php echo $lang[$la]['nav']['portfolio']; ?></a></li>
-          <li><a href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
+          <li class="hideme"><a id="portfolioLink" href="#"><?php echo $lang[$la]['nav']['portfolio']; ?></a></li>
+          <li><a id="aboutLink" href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
             <li><hr class="dividerr"></li>
           <li><a href="resources/changelang.php?lang=<?php echo $la; ?>"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
         </ul>
