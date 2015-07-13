@@ -44,13 +44,16 @@
 		if(dScrollPos >= servicesScrollPos - 15) {
 			dActive = 'servicesLink';
 		}
-	/*	if(dScrollPos >= portfolioScrollPos) {
+	/*	if(dScrollPos >= portfolioScrollPos) { // Reenable when portfolio is there!!!
 			dActive = 'portfolioLink';
 		}*/
 		if(dScrollPos >= aboutScrollPos - 15) {
 			dActive = 'aboutLink';
 		}
-		$('.active').removeClass('active');
-		$("#"+dActive).addClass('active');
+		if($(".active > a").attr('id') != dActive) {
+			console.log('New active');
+			$('.active').removeClass('active');
+			$("#"+dActive).parent('li').addClass('active');
+		}
 	});
 </script>
