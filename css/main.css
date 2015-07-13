@@ -316,6 +316,13 @@ background-color: #005577 !important;
 /*****************************
 	P4 - ABOUT
 *****************************/
+
+#about_us {
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
 #GrayTriangleShadow{
     background-color: #272727;
 }
