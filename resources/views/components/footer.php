@@ -1,6 +1,7 @@
 <footer class="footer-fixed-bottom">
     <div class="container-fluid">
-        <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-6">
 				<p class="h5">enbit.dk</p>
 				<p>CVR: 36930659</p>
 				<hr />
@@ -10,7 +11,7 @@
 				    <p>8260 Viby J</p>
 				    <p>Denmark</p>
                 </address>
-		</div>
-
+		    </div>
+        </div>
     </div>
 </footer>

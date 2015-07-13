@@ -101,9 +101,10 @@ hr.dividerr {
 	FOOTER
 *****************************/
 footer {
-	background-color:#000!important;
-	color:#fff!important;
+	background-color: #dcdcdc !important;
+	color: #393939 !important;
 }
+
 
 
 /*****************************
@@ -291,9 +292,9 @@ background-color: #005577 !important;
     fill: #00719C;
     stroke: #00719C;
 }
-#BlackTriangleShadow{
-    background-color: #000;
-}
+
+
+
 
 /*****************************
 	P3 - PORTFOLIO
@@ -310,4 +311,33 @@ background-color: #005577 !important;
     background-color: #6d6d6d;
     height: 5px;
     width: 5%;
+}
+
+/*****************************
+	P4 - ABOUT
+*****************************/
+#GrayTriangleShadow{
+    background-color: #272727;
+}
+
+
+/*****************************
+	P5 - CONTACT
+*****************************/
+
+
+.form-container{
+    position: relative;
+    margin: 0 auto;
+    background: #fff url("../img/lettertop.png") repeat-x;
+    max-width: 380px;
+    padding: 40px;
+}
+label{
+    color: #4c4c4c !important;
+}
+.contact{
+    background: #272727 url("../img/postbox.png") no-repeat center bottom;
+    padding-bottom: 30vh;
+    padding-top: 5vh;
 }

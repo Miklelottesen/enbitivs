@@ -4,6 +4,7 @@
 <?php include $components.'p2_services.php'; ?>
 <?php // include $components.'p3_portfolio.php'; ?>
 <?php include $components.'p4_about.php'; ?>
+<?php include $components.'p5_contact.php'; ?>
 <?php include $components.'footer.php'; ?>
 <script>
 	$(document).ready(function(){
