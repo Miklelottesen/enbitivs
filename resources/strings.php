@@ -75,7 +75,7 @@
     $lang['en']['p5']['thanktitle'] = 'Thank You for the message';
     $lang['en']['p5']['thanktext'] = 'We are going to answer your message as soon as possible.';
     $lang['en']['p5']['thanktitleFail'] = 'There was an error';
-    $lang['en']['p5']['thanktextFail'] = 'Something went wrong. We apologize for this inconvenience. To send us a mail, use <a href="mailto:info@enbit.dk>info@enbit.dk</a>.';
+    $lang['en']['p5']['thanktextFail'] = 'Something went wrong. We apologize for this inconvenience. To send us a mail, use <a href="mailto:info@enbit.dk">info@enbit.dk</a>.';
     $lang['en']['p5']['formemail'] = 'Email address';
     $lang['en']['p5']['formemailplaceholder'] = 'Please enter Your email address';
     $lang['en']['p5']['formname'] = 'Name';
