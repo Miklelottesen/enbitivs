@@ -350,3 +350,7 @@ label{
     padding-top: 5vh;
     background-size:90vh;
 }
+#thanks h3, p.lead{
+    color: #fff;
+    padding-bottom: 10vh;
+}

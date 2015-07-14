@@ -1,6 +1,10 @@
 <div class="container-fluid">
     <div class="row contact">
-        <div class="form-container">
+        <div id="thanks" class="text-center">
+            <h3>Thank You for the message</h3>
+            <p class="lead">We are going to answer your message as soon as possible</p>
+        </div>
+        <div id="form-container" class="form-container">
             <form action="#">
                 <div class="form-group">
                     <label for="youremail">Email address</label>
