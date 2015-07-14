@@ -2,7 +2,9 @@
 	session_start();
 	$returnSuccess = false; // Will change to true if mail is successfully sent
 	if(!isset($_SESSION['last_post']) || $_SESSION['last_post'] + 10 < time()) {
-		if (isset($_GET['email']) && isset($_GET['name']) && isset($_GET['message'])) {
+	//	echo 'No flooding violations..<br />';
+		if (isset($_GET['email']) && isset($_GET['name']) && isset($_GET['message']) && isset($_GET['callme'])) {
+		//	echo 'All fields filled out..<br />';
 			// If mail, name and message are filled
 			$name = base64_decode($_GET['name']);
 			$email = base64_decode($_GET['email']);
@@ -10,10 +12,13 @@
 			$callme = $_GET['callme'];
 
 			if (!preg_match( "/[\r\n]/", $name ) && !preg_match("/[\r\n]/", $email) && !filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+			//	echo 'No injections or invalid email..<br />';
 				// If no injections were found and email is a valid email
+				$callback = $_GET['callback'];
+
 				$message = '<p>'.$message.'</p>';
 				if($callme) {
-					$message = '<p><strong>This user wishes to be called</strong></p>'.$message;
+					$message = '<p><strong>This user wishes to be called on: '.$_GET["phone"].'</strong></p>'.$message;
 				}
 
 				$message = '
@@ -36,6 +41,6 @@
 			} 
 		}
 	}
-	echo json_encode($returnSuccess);
+	echo $callback.'('.json_encode($returnSuccess).')';
 	die();
 ?>

@@ -1,8 +1,10 @@
 <div class="container-fluid">
     <div class="row contact">
         <div id="thanks" class="text-center">
-            <h3><?php echo $lang[$la]['p5']['thanktitle'];?></h3>
-            <p class="lead"><?php echo $lang[$la]['p5']['thanktext'];?></p>
+            <h3 class="successMessage"><?php echo $lang[$la]['p5']['thanktitle'];?></h3>
+            <p class="lead successMessage"><?php echo $lang[$la]['p5']['thanktext'];?></p>
+            <h3 class="errorMessage"><?php echo $lang[$la]['p5']['thanktitleFail'];?></h3>
+            <p class="lead errorMessage"><?php echo $lang[$la]['p5']['thanktextFail'];?></p>
         </div>
         <div id="form-container" class="form-container">
             <form action="#">
@@ -23,7 +25,7 @@
                 </div>
                 <div class="checkbox">
                     <label id="checktext">
-                        <input type="checkbox"><?php echo $lang[$la]['p5']['formcheckbox'];?>
+                        <input id="callme" type="checkbox"><?php echo $lang[$la]['p5']['formcheckbox'];?>
                     </label>
                 </div>
                 <button type="submit" id="submit_message" class="btn btn-red btn-reda glyphicon glyphicon-envelope"><span><?php echo $lang[$la]['p5']['formsubmit'];?></span></button>
