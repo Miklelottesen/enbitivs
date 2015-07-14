@@ -62,5 +62,12 @@
 	$lang['da']['p2']['supporttitle'] = 'Support';
 	$lang['da']['p2']['supporttext'] = "Når vi har leveret vores produkt, holder vi kontakten for at sikre os at alt virker optimalt, og for at lave forbedringer baseret på brugsstatistikker.";
 
-
+	// P4_ABOUT US - en
+	$lang['en']['p4']['title'] = 'About us';
+	$lang['en']['p4']['vilius'] = 'Lithuanian dude';
+	$lang['en']['p4']['mikkel'] = 'Danish dude';
+	// P4_ABOUT US - da
+	$lang['en']['p4']['title'] = 'Om os';
+	$lang['en']['p4']['vilius'] = 'Lithuanian dude';
+	$lang['en']['p4']['mikkel'] = 'Danish dude';
 ?>
