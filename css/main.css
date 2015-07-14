@@ -105,7 +105,10 @@ footer {
 	color: #393939 !important;
 }
 
-
+#footerlogo
+{
+    background-color: #ebebeb;
+}
 
 /*****************************
 	P1 - INTRO HEADER
@@ -358,7 +361,7 @@ label{
     background: #D93243;
     color: #fdfdfd;
     height: 70px;
-    min-width: 260px;
+    width: 100%;
     line-height: 52px;
     font-size: 19px;
     overflow: hidden;
