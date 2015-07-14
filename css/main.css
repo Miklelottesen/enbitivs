@@ -110,6 +110,10 @@ footer {
     background-color: #ebebeb;
 }
 
+#footerlogo li{
+    list-style-type: none;
+}
+
 /*****************************
 	P1 - INTRO HEADER
 *****************************/
@@ -328,6 +332,9 @@ background-color: #005577 !important;
 }
 #GrayTriangleShadow{
     background-color: #272727;
+}
+.about_picture{
+    max-width: 400px;
 }
 
 

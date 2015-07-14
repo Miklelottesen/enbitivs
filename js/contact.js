@@ -48,3 +48,12 @@ function sendMail (mail,name,message,callme,phone) {
     });
 }
 
+
+window.fbAsyncInit = function() {
+    FB.init({
+        appId      : '1633550523587502',
+        xfbml      : true,
+        version    : 'v2.4'
+    });
+};
+

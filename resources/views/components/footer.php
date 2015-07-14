@@ -1,6 +1,26 @@
 <footer class="footer-fixed-bottom">
     <div class="container-fluid">
-        <div id="footerlogo" class="row text-center"><img src="http://placehold.it/250x130" class="img-resposive" alt="footer logo"></div>
+        <div id="footerlogo" class="row text-center">
+            <ol>
+                <li>
+                    <img src="http://placehold.it/250x130" class="img-resposive" alt="footer logo">
+
+                </li>
+                <li>
+                    <div class="fb-like"
+                         data-href="https://www.facebook.com/enbitdk"
+                         data-layout="standard"
+                         data-action="like"
+                         data-show-faces="false"
+                         data-share="true">
+                    </div>
+                </li>
+            </ol>
+
+
+        </div>
+
+
         <div class="row">
             <div class="col-sm-2 col-sm-offset-2">
 				<p class="h5">Our Address</p>
