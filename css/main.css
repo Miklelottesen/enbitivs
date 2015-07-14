@@ -110,10 +110,15 @@ footer {
     background-color: #ebebeb;
 }
 
-#footerlogo li{
-    list-style-type: none;
+#footerlogo {
+    padding-top: 5vh;
 }
+.fb-like{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 
+
+}
 /*****************************
 	P1 - INTRO HEADER
 *****************************/
@@ -376,6 +381,7 @@ label{
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
 
 .btn-red:active {
     background: #80d9f6;
