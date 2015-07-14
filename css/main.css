@@ -354,3 +354,65 @@ label{
     color: #fff;
     padding-bottom: 10vh;
 }
+
+.btn-red {
+    background: #D93243;
+    color: #fdfdfd;
+    height: 70px;
+    min-width: 260px;
+    line-height: 52px;
+    font-size: 19px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.btn-red:active {
+    background: #80d9f6;
+    top: 2px;
+}
+
+.btn-red span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.btn-red:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 2.5;
+    font-size: 180%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-red:active:before {
+    color: #ff2138;
+}
+.btn-reda:hover span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+}
+
+.btn-reda:before {
+    left: 0;
+    top: -90%;
+}
+
+.btn-reda:hover:before {
+    top: 0;
+    background-color: #B01C2E;
+    color:#fff;
+}

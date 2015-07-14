@@ -26,7 +26,8 @@
                         <input type="checkbox"> I would like to receive a call from you
                     </label>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" id="submit_message" class="btn btn-red btn-reda glyphicon glyphicon-envelope"><span><?php echo $lang[$la]['p1']['introbutton'];?></span></button>
+
             </form>
         </div>
     </div>
