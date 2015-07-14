@@ -1,8 +1,15 @@
 <div id="about_us" class="container">
     <div class="row text-center">
-        <h2><?php echo $lang[$la]['p1']['introtitle'];?></h2>
+        <h2><?php echo $lang[$la]['p4']['title'];?></h2>
         <hr>
-        <p class="lead"><?php echo $lang[$la]['p1']['introtext'];?></p>
+    </div>
+    <div class="col-sm-6">
+    	<img class="about_picture" src="http://portra.wpshower.com/wp-content/uploads/2014/03/martin-schoeller-barack-obama-portrait-up-close-and-personal.jpg" alt="Picture of someone" />
+    	<p class="lead"><?php echo $lang[$la]['p4']['vilius'];?></p>
+    </div>
+    <div class="col-sm-6">
+    	<img class="about_picture" src="http://portra.wpshower.com/wp-content/uploads/2014/03/martin-schoeller-barack-obama-portrait-up-close-and-personal.jpg" alt="Picture of someone" />
+    	<p class="lead"><?php echo $lang[$la]['p4']['mikkel'];?></p>
     </div>
 </div>
 <div class="TriangleContainer">

@@ -67,7 +67,7 @@
 	$lang['en']['p4']['vilius'] = 'Lithuanian dude';
 	$lang['en']['p4']['mikkel'] = 'Danish dude';
 	// P4_ABOUT US - da
-	$lang['en']['p4']['title'] = 'Om os';
-	$lang['en']['p4']['vilius'] = 'Lithuanian dude';
-	$lang['en']['p4']['mikkel'] = 'Danish dude';
+	$lang['da']['p4']['title'] = 'Om os';
+	$lang['da']['p4']['vilius'] = 'Lithuanian dude';
+	$lang['da']['p4']['mikkel'] = 'Danish dude';
 ?>
