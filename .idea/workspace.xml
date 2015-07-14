@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc84a2-9580-4f10-8694-124ca1bf2359" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contact.js" afterPath="$PROJECT_DIR$/js/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/components/p5_contact.php" afterPath="$PROJECT_DIR$/resources/views/components/p5_contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/strings.php" afterPath="$PROJECT_DIR$/resources/strings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="enbitivs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p5_contact.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p5_contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/components/p5_contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61403507" vertical-offset="0" max-vertical-offset="684">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="56" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="585">
+              <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/strings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32017544" vertical-offset="936" max-vertical-offset="1620">
+              <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -64,7 +74,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.0714285" vertical-offset="0" max-vertical-offset="330">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
+              <folding>
+                <marker date="1436867619000" expanded="true" signature="29:387" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +104,8 @@
       <file leaf-file-name="p4_about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/components/p4_about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="105" max-vertical-offset="375">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -113,15 +125,15 @@
         <option value="$PROJECT_DIR$/resources/views/components/p3_portfolio.php" />
         <option value="$PROJECT_DIR$/resources/views/components/navbar.php" />
         <option value="$PROJECT_DIR$/resources/views/components/p2_services.php" />
-        <option value="$PROJECT_DIR$/resources/strings.php" />
         <option value="$PROJECT_DIR$/resources/views/components/p1_intro.php" />
         <option value="$PROJECT_DIR$/resources/views/components/footer.php" />
         <option value="$PROJECT_DIR$/resources/views/body.php" />
         <option value="$PROJECT_DIR$/resources/views/components/p4_about.php" />
         <option value="$PROJECT_DIR$/resources/views/head.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/p5_contact.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/contact.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/resources/views/components/p5_contact.php" />
+        <option value="$PROJECT_DIR$/resources/strings.php" />
       </list>
     </option>
   </component>
@@ -436,14 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/strings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="330">
@@ -462,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/p4_about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="105" max-vertical-offset="375">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -472,6 +476,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="510">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/p1_intro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -488,22 +500,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0714285" vertical-offset="0" max-vertical-offset="330">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/p1_intro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1436867619000" expanded="true" signature="29:387" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/p5_contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61403507" vertical-offset="0" max-vertical-offset="684">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="56" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="585">
+          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/strings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32017544" vertical-offset="936" max-vertical-offset="1620">
+          <caret line="77" column="80" selection-start-line="77" selection-start-column="80" selection-end-line="77" selection-end-column="80" />
           <folding />
         </state>
       </provider>

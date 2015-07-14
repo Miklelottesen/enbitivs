@@ -70,4 +70,34 @@
 	$lang['da']['p4']['title'] = 'Om os';
 	$lang['da']['p4']['vilius'] = 'Lithuanian dude';
 	$lang['da']['p4']['mikkel'] = 'Danish dude';
+
+    //P5_CONTACT - en
+    $lang['en']['p5']['thanktitle'] = 'Thank You for the message';
+    $lang['en']['p5']['thanktext'] = 'We are going to answer your message as soon as possible.';
+    $lang['en']['p5']['formemail'] = 'Email address';
+    $lang['en']['p5']['formemailplaceholder'] = 'Please enter Your email address';
+    $lang['en']['p5']['formname'] = 'Name';
+    $lang['en']['p5']['formnameplaceholder'] = 'Please enter Your name';
+    $lang['en']['p5']['formphone'] = 'Telephone';
+    $lang['en']['p5']['formphoneplaceholder'] = 'Please enter Your phone number';
+    $lang['en']['p5']['formmessage'] = 'Message';
+    $lang['en']['p5']['formmessageplaceholder'] = 'Your Message';
+    $lang['en']['p5']['formcheckbox'] = ' I would like to receive a call from you';
+    $lang['en']['p5']['formsubmit'] = 'Send';
+
+//P5_CONTACT - da
+$lang['da']['p5']['thanktitle'] = 'Thank You for the message';
+$lang['da']['p5']['thanktext'] = 'We are going to answer your message as soon as possible.';
+$lang['da']['p5']['formemail'] = 'Email address';
+$lang['da']['p5']['formemailplaceholder'] = 'Please enter Your email address';
+$lang['da']['p5']['formname'] = 'Name';
+$lang['da']['p5']['formnameplaceholder'] = 'Please enter Your name';
+$lang['da']['p5']['formphone'] = 'Telephone';
+$lang['da']['p5']['formphoneplaceholder'] = 'Please enter Your phone number';
+$lang['da']['p5']['formmessage'] = 'Message';
+$lang['da']['p5']['formmessageplaceholder'] = 'Your Message';
+$lang['da']['p5']['formcheckbox'] = ' I would like to receive a call from you';
+$lang['da']['p5']['formsubmit'] = 'Send';
+
+
 ?>

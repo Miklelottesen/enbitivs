@@ -1,32 +1,32 @@
 <div class="container-fluid">
     <div class="row contact">
         <div id="thanks" class="text-center">
-            <h3>Thank You for the message</h3>
-            <p class="lead">We are going to answer your message as soon as possible</p>
+            <h3><?php echo $lang[$la]['p5']['thanktitle'];?></h3>
+            <p class="lead"><?php echo $lang[$la]['p5']['thanktext'];?></p>
         </div>
         <div id="form-container" class="form-container">
             <form action="#">
                 <div class="form-group">
-                    <label for="youremail">Email address</label>
-                    <input type="email" class="form-control" id="youremail" placeholder="Email">
+                    <label for="youremail"><?php echo $lang[$la]['p5']['formemail'];?></label>
+                    <input type="email" class="form-control" id="youremail" placeholder="<?php echo $lang[$la]['p5']['formemailplaceholder'];?>">
                 </div>
                 <div class="form-group">
-                    <label for="yourname">Name</label>
-                    <input type="text" class="form-control" id="yourname" placeholder="Your Name">
+                    <label for="yourname"><?php echo $lang[$la]['p5']['formname'];?></label>
+                    <input type="text" class="form-control" id="yourname" placeholder="<?php echo $lang[$la]['p5']['formnameplaceholder'];?>">
                 </div>
                 <div class="form-group">
-                    <label for="yournumber">Telephone</label>
-                    <input type="number" min="8" max="12" class="form-control" id="yournumber" placeholder="Your Name">
+                    <label for="yournumber"><?php echo $lang[$la]['p5']['formphone'];?></label>
+                    <input type="number" min="8" max="12" class="form-control" id="yournumber" placeholder="<?php echo $lang[$la]['p5']['formphoneplaceholder'];?>">
                 </div>
-                <div class="form-group"><label for="textinput">Message</label>
-                    <textarea id="textinput" class="form-control" rows="3"></textarea>
+                <div class="form-group"><label for="textinput"><?php echo $lang[$la]['p5']['formmessage'];?></label>
+                    <textarea id="textinput" class="form-control" rows="3"><?php echo $lang[$la]['p5']['formmessageplaceholder'];?></textarea>
                 </div>
                 <div class="checkbox">
                     <label id="checktext">
-                        <input type="checkbox"> I would like to receive a call from you
+                        <input type="checkbox"><?php echo $lang[$la]['p5']['formcheckbox'];?>
                     </label>
                 </div>
-                <button type="submit" id="submit_message" class="btn btn-red btn-reda glyphicon glyphicon-envelope"><span><?php echo $lang[$la]['p1']['introbutton'];?></span></button>
+                <button type="submit" id="submit_message" class="btn btn-red btn-reda glyphicon glyphicon-envelope"><span><?php echo $lang[$la]['p5']['formsubmit'];?></span></button>
 
             </form>
         </div>
