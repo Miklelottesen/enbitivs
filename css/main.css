@@ -437,18 +437,19 @@ label{
 
 .formError {
 	border-color: #ff0000;
+	box-shadow: 0px 0px 8px #ffb5b5;
 }
 .formError::-webkit-input-placeholder {
-	color:#ff0000;
+	color:#dd0000;
 }
 .formError::-moz-placeholder {
-	color:#ff0000;
+	color:#dd0000;
 }
 .formError:-moz-placeholder {
-	color:#ff0000;
+	color:#dd0000;
 }
 .formError:-ms-input-placeholder {
-	color:#ff0000;
+	color:#dd0000;
 }
 
 .req-field::after {
@@ -462,6 +463,21 @@ label{
 
 .form-control {
 	width: 97%!important;
+}
+
+input.form-control {
 	height:34px!important;
 	padding: 6px 12px!important;
+}
+
+textarea {
+	height:150px!important;
+	resize: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }

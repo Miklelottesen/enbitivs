@@ -18,13 +18,13 @@
                 </div>
                 <div class="form-group">
                     <label for="yournumber"><?php echo $lang[$la]['p5']['formphone'];?></label>
-                    <input type="number" min="8" max="12" class="form-control" id="yournumber" placeholder="<?php echo $lang[$la]['p5']['formphoneplaceholder'];?>">
+                    <input type="number" class="form-control" id="yournumber" placeholder="<?php echo $lang[$la]['p5']['formphoneplaceholder'];?>">
                 </div>
                 <div class="form-group"><label for="textinput"><?php echo $lang[$la]['p5']['formmessage'];?></label>
                     <textarea id="textinput" class="form-control" rows="3" placeholder="<?php echo $lang[$la]['p5']['formmessageplaceholder'];?>"></textarea>
                 </div>
                 <div class="checkbox">
-                    <label id="checktext">
+                    <label class="css-label" id="checktext">
                         <input id="callme" type="checkbox"><?php echo $lang[$la]['p5']['formcheckbox'];?>
                     </label>
                 </div>
