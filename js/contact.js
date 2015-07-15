@@ -13,7 +13,7 @@ $(document).ready(function() {
             phone = $("#yournumber").val();
             message = $("#textinput").val();
             callme = $("#callme").prop('checked');
-        //    sendMail(email,name,message,callme,phone);
+            sendMail(email,name,message,callme,phone);
             $(par).slideToggle('slow');
             $(thank).slideToggle('slow');
             $(thank).css('opacity',0);
