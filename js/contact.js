@@ -41,7 +41,8 @@ function formCheckValid () {
         emailValid = true;
     }
         // Check if mail address has '@' followed somewhere by '.'
-    if ($("#youremail").val().split('@').length == 2 && emailValid) {
+        // This function is disabled, cause it IS in fact possible to have a mail adress without TLD!!
+/*    if ($("#youremail").val().split('@').length == 2 && emailValid) {
         if ($("#youremail").val().split('@')[1].split('.').length > 1) {
             emailValid = true;
             $("#youremail").removeClass('formError');
@@ -52,7 +53,7 @@ function formCheckValid () {
     } else {
         emailValid = false;
         $("#youremail").addClass('formError');
-    }
+    }*/
 
     if($("#yourname").val() == '') {
         nameValid = false;
