@@ -35,6 +35,10 @@
 		$("#about_us").ScrollTo();
 		return false;
 	});
+	$("#contactLink").click(function(){
+		$("#contactForm").ScrollTo();
+		return false;
+	});
 
 	// Set active handlers
 	$(document).scroll(function(){
@@ -43,6 +47,7 @@
 		servicesScrollPos = Math.floor($("#services").position().top);
 	//	portfolioScrollPos = Math.floor($("#portfolio").position().top);
 		aboutScrollPos = Math.floor($("#about_us").position().top);
+		contactScrollPos = Math.floor($(".contact").position().top);
 		if(dScrollPos >= servicesScrollPos - 15) {
 			dActive = 'servicesLink';
 		}
@@ -52,6 +57,10 @@
 		if(dScrollPos >= aboutScrollPos - 15) {
 			dActive = 'aboutLink';
 		}
+		if(dScrollPos >= contactScrollPos - 15) {
+			dActive = 'contactLink';
+		}
+
 		if($(".active > a").attr('id') != dActive) {
 			console.log('New active');
 			$('.active').removeClass('active');

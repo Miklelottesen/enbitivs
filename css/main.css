@@ -431,3 +431,20 @@ label{
     background-color: #B01C2E;
     color:#fff;
 }
+
+.formError {
+	border-color: #ff0000;
+}
+
+.formError::-webkit-input-placeholder {
+	color:#ff0000;
+}
+.formError::-moz-placeholder {
+	color:#ff0000;
+}
+.formError:-moz-placeholder {
+	color:#ff0000;
+}
+.formError:-ms-input-placeholder {
+	color:#ff0000;
+}

@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div id="contactForm" class="container-fluid">
     <div class="row contact">
         <div id="thanks" class="text-center">
             <h3 class="successMessage"><?php echo $lang[$la]['p5']['thanktitle'];?></h3>
@@ -21,7 +21,7 @@
                     <input type="number" min="8" max="12" class="form-control" id="yournumber" placeholder="<?php echo $lang[$la]['p5']['formphoneplaceholder'];?>">
                 </div>
                 <div class="form-group"><label for="textinput"><?php echo $lang[$la]['p5']['formmessage'];?></label>
-                    <textarea id="textinput" class="form-control" rows="3"><?php echo $lang[$la]['p5']['formmessageplaceholder'];?></textarea>
+                    <textarea id="textinput" class="form-control" rows="3" placeholder="<?php echo $lang[$la]['p5']['formmessageplaceholder'];?>"></textarea>
                 </div>
                 <div class="checkbox">
                     <label id="checktext">

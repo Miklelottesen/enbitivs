@@ -20,6 +20,7 @@
           <li><a id="servicesLink" href="#"><?php echo $lang[$la]['nav']['services']; ?></a></li>
           <li class="hideme"><a id="portfolioLink" href="#"><?php echo $lang[$la]['nav']['portfolio']; ?></a></li>
           <li><a id="aboutLink" href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
+          <li><a id="contactLink" href="#"><?php echo $lang[$la]['nav']['contact']; ?></a></li>
             <li><hr class="dividerr"></li>
           <li><a href="resources/changelang.php?lang=<?php echo $la; ?>"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
         </ul>
