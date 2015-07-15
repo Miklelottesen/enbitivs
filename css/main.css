@@ -1,7 +1,10 @@
 /*****************************
 	GENERAL
 *****************************/
-.text-justify {
+* { /* Default font */
+	font-family:'helvetica', sans-serif;
+}
+.text-justify { /* Bootstrap'ish class for justified text */
 	text-align:justify!important;
 }
 
@@ -435,7 +438,6 @@ label{
 .formError {
 	border-color: #ff0000;
 }
-
 .formError::-webkit-input-placeholder {
 	color:#ff0000;
 }
@@ -447,4 +449,19 @@ label{
 }
 .formError:-ms-input-placeholder {
 	color:#ff0000;
+}
+
+.req-field::after {
+	content: " *"!important;
+	float:right;
+	margin-top:-27px;
+	font-size:20px;
+	font-family:monospace;
+	color:#ff0000;
+}
+
+.form-control {
+	width: 97%!important;
+	height:34px!important;
+	padding: 6px 12px!important;
 }

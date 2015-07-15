@@ -8,11 +8,11 @@
         </div>
         <div id="form-container" class="form-container">
             <form action="#">
-                <div class="form-group">
+                <div class="form-group req-field">
                     <label for="youremail"><?php echo $lang[$la]['p5']['formemail'];?></label>
                     <input type="email" class="form-control" id="youremail" placeholder="<?php echo $lang[$la]['p5']['formemailplaceholder'];?>">
                 </div>
-                <div class="form-group">
+                <div class="form-group req-field">
                     <label for="yourname"><?php echo $lang[$la]['p5']['formname'];?></label>
                     <input type="text" class="form-control" id="yourname" placeholder="<?php echo $lang[$la]['p5']['formnameplaceholder'];?>">
                 </div>

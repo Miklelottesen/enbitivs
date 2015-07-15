@@ -21,7 +21,7 @@ $(document).ready(function() {
                 opacity:1
             },500, function(){});
         } else {
-            $("#form-container").effect("shake",{'direction':'down'});
+            $(".formError").effect("shake",{'direction':'left'});
         }
         e.preventDefault();
     });
