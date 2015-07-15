@@ -16,7 +16,7 @@
 				// If no injections were found and email is a valid email
 				$callback = $_GET['callback'];
 
-				$message = '<p>'.$message.'</p>';
+				$message = '<p><strong>From: </strong>'.$name.'</p><p>'.$message.'</p>';
 				if($callme) {
 					$message = '<p><strong>This user wishes to be called on: '.$_GET["phone"].'</strong></p>'.$message;
 				}
@@ -33,9 +33,9 @@
 				$returnSuccess = true;
 				$headers  = 'MIME-Version: 1.0' . "\r\n";
 				$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-				$headers .= 'From: '.$name.''."\r\n".
-				'Reply-To: '.$email.''."\r\n".
-				'X-Mailer: PHP/'.phpversion();
+				$headers .= 'From: '.$email."\r\n";
+				$headers .= 'Reply-To: '.$email."\r\n";
+				//'X-Mailer: PHP/'.phpversion();
 
 				mail('info@enbit.dk', 'Mail from webform', $message, $headers);
 			} 
