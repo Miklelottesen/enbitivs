@@ -25,6 +25,38 @@ $(document).ready(function() {
         }
         e.preventDefault();
     });
+    // P2 SERVICES transition on click
+    $(".p2-transition").click(function(e){
+        console.log('Clicked service link..');
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        $("#p2-switch-one").animate({
+            'opacity': 0
+        },500, function(){
+            $("#p2-switch-one").css('display','none');
+            $("#p2-switch-two").css({
+                'opacity':0,
+                'display':'block'
+            });
+            $("#p2-switch-two").animate({
+                'opacity':1
+            },500);
+        });
+        return false;
+    });
+    // Triggers for service buttons
+    $(".p2-trigger").on('click',function(e){
+        var triggerName = $(this).attr('data-pii');
+        var triggerSection = triggerName.split('-trigger')[0]+'-section';
+        $(".active-p2").removeClass('active-p2');
+        console.log('Removing current class');
+        $("."+triggerName).parent().addClass('active-p2');
+        console.log($(this).parent().hasClass('p2-transition'));
+        if(!$(this).parent().hasClass('p2-transition')) {
+            e.preventDefault();
+            return false;
+        }
+    });
 });
 
 function formCheckValid () {
