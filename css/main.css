@@ -199,7 +199,7 @@ font-weight: 400!important;
     stroke: #d6d6d6;
 }
 #TriangleShadow{
-    background-color: #00415A;
+    background-color: #006681;
 }
 .TriangleContainer{
     line-height: 0!important;
@@ -278,7 +278,7 @@ font-weight: 400!important;
 }
 
 #services {
-	background-color:#00415A!important;
+	background-color:#006681!important;
     padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -322,7 +322,7 @@ color:#007!important;
 }
 #services .well {
 min-height: 300px!important;
-background-color:#00415A!important;
+background-color:#006681!important;
 transition: background-color 0.5s;
     border: none!important;
 }
@@ -331,12 +331,12 @@ background-color: #005577 !important;
 }
 
 #BlueTrianglePath1 {
-    fill: #00415A;
-    stroke: #00415A;
+    fill: #006681;
+    stroke: #006681;
 }
 #BlueTrianglePath2 {
-    fill: #00719C;
-    stroke: #00719C;
+    fill: #0091ae;
+    stroke: #0091ae;
 }
 
 /*
