@@ -343,7 +343,8 @@ color:#007!important;
 min-height: 300px!important;
 background-color:#006681!important;
 transition: background-color 0.5s;
-    border: none!important;
+border: none!important;
+box-shadow:none!important;
 }
 #services .well:hover {
 background-color: #005577 !important;
