@@ -257,6 +257,9 @@ footer {
     padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
+    height: 850px!important; /* Keep frameheight */
+    min-height: 850px!important; /* Keep frameheight */
+    max-height: 850px!important; /* Keep frameheight */
 
 }
 #services h2 {
