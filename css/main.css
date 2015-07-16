@@ -152,6 +152,9 @@ footer {
     line-height: 42px;
     font-weight: 300;
 }
+.actionp{
+font-weight: 400!important;
+}
 #intro hr{
     color: #0e0e0e;
     background-color: #6d6d6d;
