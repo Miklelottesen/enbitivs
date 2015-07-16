@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div id="footerlogo" class="row text-center">
 
-                    <img src="http://placehold.it/250x130" class="img-resposive" alt="footer logo">
+                    <img src="img/logo_footer.png" class="img-resposive" alt="footer logo">
             <div class="col-xs-offset-2">
                 <div class="fb-like"
                      data-href="https://www.facebook.com/enbitdk"
