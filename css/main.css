@@ -16,6 +16,10 @@
 *****************************/
 #navbar {
 	background-color: rgba(0,0,0,0.9);
+	height:55px!important;
+	min-height:55px!important;
+	max-height:55px!important;
+	overflow:visible!important;
 }
 .navbar-brand{
     padding: 6px 15px!important;
@@ -72,7 +76,7 @@ border-left-color: #111111;
 }
 
 #navbar a::before {
-    top: 0;
+    top: 0px;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -115,8 +119,12 @@ hr.dividerr {
 
 }
 .navbar-brand::before, .navbar-brand::after {
-	text-decoration: none!important;
-	background:rgba(0,0,0,0)!important;
+/*	text-decoration: none!important;*/
+	opacity:1!important;
+	background:rgba(255,255,255,0)!important;
+	-webkit-transform: translateY(0px)!important;
+	-moz-transform: translateY(0px)!important;
+	transform: translateY(0px)!important;
 }
 /*****************************
 	FOOTER
