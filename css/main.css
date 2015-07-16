@@ -515,7 +515,7 @@ label{
 .contact{
     background: #272727 url("../img/postbox.png") no-repeat center bottom;
     padding-bottom: 30vh;
-    padding-top: 5vh;
+    padding-top: 110px;
     background-size:90vh;
 }
 #thanks h3, #thanks p.lead{
