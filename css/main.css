@@ -410,6 +410,23 @@ Services Description page
 #servicesList h3 i {
 	color:#000!important;
 }
+@media screen and (max-width: 1205px) {
+    #servicesList h3 {
+    	font-size: 25px!important;
+    }
+}
+@media screen and (max-width: 1085px) {
+    #servicesList h3 {
+    	font-size: 20px!important;
+    	padding-left:5px!important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #servicesList, #p2-nav-container {
+    	height: 50px!important;
+    	background-color:#666!important;
+    }
+}
 
 /*****************************
 	P3 - PORTFOLIO

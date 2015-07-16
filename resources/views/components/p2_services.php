@@ -85,14 +85,14 @@
     		  <!-- Collect the nav links, forms, and other content for toggling -->
     		  <div id="listContainer" class="collapse navbar-collapse navbar-ex1-collapse">
     		    <ul class="nav navbar-nav">
-    		      <li class="active-p2"><a class="p2-trigger premium-trigger" data-pii="premium-trigger" href="#"><h3><i class="fa fa-diamond fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['premiumtitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger app-trigger" data-pii="app-trigger" href="#"><h3><i class="fa fa-connectdevelop fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['apptitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger seo-trigger" data-pii="seo-trigger" href="#"><h3><i class="fa fa-line-chart fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['seotitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger redesign-trigger" data-pii="redesign-trigger" href="#"><h3><i class="fa fa-medkit fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['redesigntitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger print-trigger" data-pii="print-trigger" href="#"><h3><i class="fa fa-print fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['printtitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger shop-trigger" data-pii="shop-trigger" href="#"><h3><i class="fa fa-shopping-cart fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['shoptitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger biz-trigger" data-pii="biz-trigger" href="#"><h3><i class="fa fa-briefcase fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['biztitle']; ?></h3></a></li>
-    		      <li><a class="p2-trigger support-trigger" data-pii="support-trigger" href="#"><h3><i class="fa fa-question-circle fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['supporttitle']; ?></h3></a></li>
+    		      <li class="active-p2"><a class="p2-trigger premium-trigger" data-pii="premium-trigger" href="#"><h3><i class="fa fa-diamond fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['premiumtitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger app-trigger" data-pii="app-trigger" href="#"><h3><i class="fa fa-connectdevelop fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['apptitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger seo-trigger" data-pii="seo-trigger" href="#"><h3><i class="fa fa-line-chart fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['seotitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger redesign-trigger" data-pii="redesign-trigger" href="#"><h3><i class="fa fa-medkit fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['redesigntitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger print-trigger" data-pii="print-trigger" href="#"><h3><i class="fa fa-print fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['printtitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger shop-trigger" data-pii="shop-trigger" href="#"><h3><i class="fa fa-shopping-cart fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['shoptitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger biz-trigger" data-pii="biz-trigger" href="#"><h3><i class="fa fa-briefcase fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['biztitle']; ?></h3></a></li>
+    		      <li><a class="p2-trigger support-trigger" data-pii="support-trigger" href="#"><h3><i class="fa fa-question-circle fa-x2 hidden-sm"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['supporttitle']; ?></h3></a></li>
     		    </ul>
     		  </div><!-- /.navbar-collapse -->
     		</nav>
