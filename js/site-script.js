@@ -86,36 +86,37 @@ $(document).ready(function() {
 // Hide elements with .hideme class
     $(".hideme").attr('aria-hidden', 'true');
     $(".hideme").css('display', 'none');
-});
 
-// ScrollTo click handlers
-$(".navbar-brand").click(function(){
-    $("#introHeader").ScrollTo();
-    return false;
-});
-$("#topLink").click(function(){
-    $("#introHeader").ScrollTo();
-    return false;
-});
-$("#servicesLink").click(function(){
-    $("#services").ScrollTo();
-    return false;
-});
-$("#portfolioLink").click(function(){
-    $("#portfolio").ScrollTo();
-    return false;
-});
-$("#aboutLink").click(function(){
-    $("#about_us").ScrollTo();
-    return false;
-});
-$("#contactLink").click(function(){
-    $("#contactForm").ScrollTo();
-    return false;
-});
-$("#calltoaction").click(function(){
-    $("#contactForm").ScrollTo();
-    return false;
+    // ScrollTo click handlers
+    $(".navbar-brand").click(function(){
+        $("#introHeader").ScrollTo();
+        console.log('Feel the burn');
+        return false;
+    });
+    $("#topLink").click(function(){
+        $("#introHeader").ScrollTo();
+        return false;
+    });
+    $("#servicesLink").click(function(){
+        $("#services").ScrollTo();
+        return false;
+    });
+    $("#portfolioLink").click(function(){
+        $("#portfolio").ScrollTo();
+        return false;
+    });
+    $("#aboutLink").click(function(){
+        $("#about_us").ScrollTo();
+        return false;
+    });
+    $("#contactLink").click(function(){
+        $("#contactForm").ScrollTo();
+        return false;
+    });
+    $("#calltoaction").click(function(){
+        $("#contactForm").ScrollTo();
+        return false;
+    });
 });
 
 // Set active handlers

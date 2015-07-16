@@ -19,21 +19,12 @@
 
 
 
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-2">
-				<p class="h5">Our Address</p>
-				<address>
-                    <p><i class="fa fa-street-view"></i> enbit IVS</p>
-				    <p><i class="fa fa-home"></i> Sønderhøj 48,</p>
-				    <p>8260 Viby J,</p>
-				    <p>Denmark</p>
-                </address>
+        <div id="bottom-footer" class="row">
+            <div class="col-sm-6 text-left">
+				<p>Copyright &copy; 2015 - enbit IVS</p>
 		    </div>
-            <div class="col-sm-4">
-                <p class="h5">Company</p>
+            <div class="col-sm-6 text-right">
                 <p>CVR: 36930659</>
-                <p>enbit IVS</p>
-
             </div>
 
         </div>

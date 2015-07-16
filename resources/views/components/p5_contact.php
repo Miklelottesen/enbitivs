@@ -33,4 +33,10 @@
             </form>
         </div>
     </div>
+    <address id="mailbox-address">
+        <strong>enbit IVS</strong><br>
+        Sønderhøj 48<br>
+        8260 Viby J<br>
+        Denmark<br>
+    </address>
 </div>
