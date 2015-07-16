@@ -47,11 +47,24 @@ $(document).ready(function() {
     // Triggers for service buttons
     $(".p2-trigger").on('click',function(e){
         var triggerName = $(this).attr('data-pii');
-        var triggerSection = triggerName.split('-trigger')[0]+'-section';
+        var triggerShortName = triggerName.split('-trigger')[0];
+        var triggerSection = triggerShortName+'-section';
         $(".active-p2").removeClass('active-p2');
         console.log('Removing current class');
         $("."+triggerName).parent().addClass('active-p2');
         console.log($(this).parent().hasClass('p2-transition'));
+
+        $("#serviceDescription").animate({
+            'opacity':0
+        },250, function(){
+            $("#serviceDescription").empty();
+            $( "#serviceDescription" ).load( "resources/views/articles/layout.php?id="+triggerShortName );
+            $("#serviceDescription").animate({
+                'opacity':1
+            },250);
+        });
+        
+
         if(!$(this).parent().hasClass('p2-transition')) {
             e.preventDefault();
             return false;

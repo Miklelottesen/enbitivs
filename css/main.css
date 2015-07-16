@@ -323,7 +323,7 @@ background-color: #005577 !important;
 /*
 Services Description page
 */
-#serviceDescription {
+#serviceDescription, #descContainer {
 	display:block;
 	background-color: #fff!important;
 	height: 650px!important;
@@ -358,12 +358,16 @@ Services Description page
 	height: 100%!important;
 	padding:0!important;
 	background-color: #fff;
+	transition:background-color 0.5s;
 }
 .active-p2 a {
 	background-color:#e3e3e3!important;
 }
 #servicesList li a:hover {
 	background-color:#eeeeee!important;
+}
+#servicesList .active-p2 a:hover {
+	background-color:#e3e3e3!important;
 }
 #servicesList ul {
 	height: 100%!important;

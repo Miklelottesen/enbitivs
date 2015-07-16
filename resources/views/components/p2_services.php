@@ -98,10 +98,12 @@
     		</nav>
 <!-- NAVBAR ENDS -->
     	</div>
-    	<div id="serviceDescription" class="col-sm-8 col-lg-6">
-    		<h3>Penis worms</h3>
-    		<p>My penis has worms, so therefore I go to doctor and he give me penis pill. I swallow penis pill and become monster for day, and then I rape a homeless guy. Carpe diem.</p>
-    	</div>
+    	<div id="descContainer">
+	    	<div id="serviceDescription" class="col-sm-8 col-lg-6">
+	    		<h3>Penis worms</h3>
+	    		<p>My penis has worms, so therefore I go to doctor and he give me penis pill. I swallow penis pill and become monster for day, and then I rape a homeless guy. Carpe diem.</p>
+	    	</div>
+	    </div>
     </section>
 </main>
 
