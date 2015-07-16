@@ -69,7 +69,7 @@
     </section>
     <section id="p2-switch-two">
     	<h2 class="text-center">Heading</h2>
-    	<hr />
+    	<hr>
     	<div id="p2-nav-container" class="col-sm-4">
 <!-- NAVBAR BEGINS -->
     		<nav id="servicesList" class="navbar navbar-default" role="navigation">
