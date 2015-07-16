@@ -2,11 +2,14 @@
 	GENERAL
 *****************************/
 * { /* Default font */
-	font-family:'helvetica', sans-serif;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
 }
 .text-justify { /* Bootstrap'ish class for justified text */
 	text-align:justify!important;
 }
+
+
+
 
 /*****************************
 	NAVBAR
@@ -138,6 +141,16 @@ footer {
 }
 #intro {
     padding-top: 5vh;
+}
+#intro h2{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+#intro .lead{
+    font-size: 23px;
+    line-height: 42px;
+    font-weight: 300;
 }
 #intro hr{
     color: #0e0e0e;
@@ -274,6 +287,9 @@ footer {
 #services h2 {
     margin-bottom: 40px!important;
     color: white;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -1px;
 }
 
 #services h3 {
