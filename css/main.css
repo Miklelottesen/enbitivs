@@ -410,6 +410,9 @@ Services Description page
 #servicesList h3 i {
 	color:#000!important;
 }
+.artIcon {
+	color:#000!important;
+}
 @media screen and (max-width: 1205px) {
     #servicesList h3 {
     	font-size: 25px!important;
