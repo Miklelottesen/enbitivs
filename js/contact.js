@@ -70,6 +70,18 @@ $(document).ready(function() {
             return false;
         }
     });
+    $("#articleNavMobile").focus(function(){
+        $("#servicesList").css('z-index',2);
+        $("#servicesList").animate({
+            'height':450
+        },300);
+    });
+    $("#articleNavMobile").focusout(function(){
+        $("#servicesList").animate({
+            'height':50
+        },300);
+        $("#servicesList").css('z-index',2);
+    });
 });
 
 function formCheckValid () {
