@@ -1,9 +1,10 @@
 <main id="services" class="container-fluid">
-	<section id="p2-switch-one"
+<h2 class="text-center"><?php echo $lang[$la]['p2']['servicestitle'];?></h2>
+<hr>
+	<section id="p2-switch-one">
         <div class="row text-center">
 
-        <h2><?php echo $lang[$la]['p2']['servicestitle'];?></h2>
-        <hr>
+        
 
 
             <a class="p2-transition p2-trigger" data-pii="premium-trigger" href="#">
@@ -68,8 +69,6 @@
         </div>
     </section>
     <section id="p2-switch-two">
-    	<h2 class="text-center">Heading</h2>
-    	<hr>
     	<div id="p2-nav-container" class="col-sm-4 col-lg-offset-1">
 <!-- NAVBAR BEGINS -->
     		<nav id="servicesList" class="navbar navbar-default" role="navigation">
