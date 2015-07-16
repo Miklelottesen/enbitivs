@@ -238,10 +238,29 @@ window.fbAsyncInit = function() {
 $(function(){
     $("#calltoaction").hover(
         function(){
-            $(".intro_hr").animate({ "width" : "20%" });
+            $(".intro_hr2").animate({ "width" : "20%" },300);
+            $(".intro_hr1").animate({ "width" : "20%" },500);
         },
         function(){
-            $(".intro_hr").animate({ "width" : "5%"});
+            $(".intro_hr1").animate({ "width" : "5%"},500);
+            $(".intro_hr2").animate({ "width" : "5%"},300);
+        }
+    );
+});
+$(function(){
+    var isHovering = false;
+    $(".p2-trigger").hover(
+        function(){
+            isHovering = true;
+            $(".p2-hr").animate({'width' : '20%'},300);
+        },
+        function(){
+            isHovering = false;
+            setTimeout(function(){
+                if(!isHovering) {
+                    $(".p2-hr").animate({'width' : '5%'},300);
+                }
+            },100);
         }
     );
 });

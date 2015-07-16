@@ -1,6 +1,6 @@
 <main id="services" class="container-fluid">
 <h2 class="text-center"><?php echo $lang[$la]['p2']['servicestitle'];?></h2>
-<hr>
+<hr class="p2-hr">
 	<section id="p2-switch-one">
         <div class="row text-center">
 

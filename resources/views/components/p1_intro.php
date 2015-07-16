@@ -1,10 +1,10 @@
 <section id="intro" class="container">
 	<div class="row text-center">
         <h2><?php echo $lang[$la]['p1']['introtitle'];?></h2>
-        <hr class="intro_hr">
+        <hr class="intro_hr1">
 		<p class="lead"><?php echo $lang[$la]['p1']['introtext'];?></p>
         <div class="clearfix"></div>
-        <hr class="intro_hr">
+        <hr class="intro_hr2">
         <p class="lead actionp"><?php echo $lang[$la]['p1']['introcall'];?></p>
         <button id="calltoaction" class="btn btn-5 btn-5a glyphicon glyphicon-menu-down"><span><?php echo $lang[$la]['p1']['introbutton'];?></span></button>
 	</div>
