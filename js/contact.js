@@ -157,3 +157,15 @@ window.fbAsyncInit = function() {
     });
 };
 
+
+
+$(function(){
+    $("#calltoaction").hover(
+        function(){
+            $(".intro_hr").animate({ "width" : "20%" });
+        },
+        function(){
+            $(".intro_hr").animate({ "width" : "5%"});
+        }
+    );
+});
