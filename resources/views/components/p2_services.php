@@ -1,4 +1,5 @@
 <main id="services" class="container-fluid">
+	<section id="p2-switch-one"
         <div class="row text-center">
 
         <h2><?php echo $lang[$la]['p2']['servicestitle'];?></h2>
@@ -65,6 +66,44 @@
                 </article>
             </a>
         </div>
+    </section>
+    <section id="p2-switch-two">
+    	<h2 class="text-center">Heading</h2>
+    	<hr />
+    	<div id="p2-nav-container" class="col-sm-4">
+<!-- NAVBAR BEGINS -->
+    		<nav id="servicesList" class="navbar navbar-default" role="navigation">
+    		  <!-- Brand and toggle get grouped for better mobile display -->
+    		  <div class="navbar-header">
+    		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    		      <span class="sr-only">Toggle navigation</span>
+    		      <span class="icon-bar"></span>
+    		      <span class="icon-bar"></span>
+    		      <span class="icon-bar"></span>
+    		    </button>
+    		  </div>
+
+    		  <!-- Collect the nav links, forms, and other content for toggling -->
+    		  <div id="listContainer" class="collapse navbar-collapse navbar-ex1-collapse">
+    		    <ul class="nav navbar-nav">
+    		      <li class="active"><a href="#"><h3><i class="fa fa-diamond fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['premiumtitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-connectdevelop fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['apptitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-line-chart fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['seotitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-medkit fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['redesigntitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-print fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['printtitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-shopping-cart fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['shoptitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-briefcase fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['biztitle']; ?></h3></a></li>
+    		      <li><a href="#"><h3><i class="fa fa-question-circle fa-x2"></i>&nbsp;&nbsp;<?php echo $lang[$la]['p2']['supporttitle']; ?></h3></a></li>
+    		    </ul>
+    		  </div><!-- /.navbar-collapse -->
+    		</nav>
+<!-- NAVBAR ENDS -->
+    	</div>
+    	<div id="serviceDescription" class="col-sm-8">
+    		<h3>Penis worms</h3>
+    		<p>My penis has worms, so therefore I go to doctor and he give me penis pill. I swallow penis pill and become monster for day, and then I rape a homeless guy. Carpe diem.</p>
+    	</div>
+    </section>
 </main>
 
     <div class="TriangleContainer">
