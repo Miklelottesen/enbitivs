@@ -22,7 +22,7 @@
 <script src="js/jquery-scrollto.js"></script>
 
 <!-- letterbox script -->
-<script src="js/contact.js"></script>
+<script src="js/site-script.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
