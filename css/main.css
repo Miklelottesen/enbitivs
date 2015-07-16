@@ -377,13 +377,13 @@ Services Description page
 	transition:background-color 0.5s;
 }
 .active-p2 a {
-	background-color:#e3e3e3!important;
+	background-color:#c2d2ed!important;
 }
 #servicesList li a:hover {
-	background-color:#eeeeee!important;
+	background-color:#d2e2fd!important;
 }
 #servicesList .active-p2 a:hover {
-	background-color:#e3e3e3!important;
+	background-color:#c2d2ed!important;
 }
 #servicesList ul {
 	height: 100%!important;
