@@ -236,7 +236,7 @@ font-weight: 400!important;
     stroke: #88ABC2;
 }
 #TriangleShadow{
-    background-color: #D0E0EB;
+    background-color: #eef4f7;
 }
 .TriangleContainer{
     line-height: 0!important;
@@ -315,7 +315,7 @@ font-weight: 400!important;
 }
 
 #services {
-	background-color: #D0E0EB !important;
+	background-color: #eef4f7 !important;
     padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -333,7 +333,6 @@ font-weight: 400!important;
 }
 
 #services h3 {
-    font-size: 2em;
     color: #49708A;
 }
 
@@ -352,25 +351,28 @@ color:#000!important;
 #services a:hover {
 color:#007!important;
 }
+.readmore, .readmore>i{
+    text-transform: uppercase;
+    color: #04a7be!important;
+
+    margin: 0px auto;
+}
 #services hr{
     color: #0e0e0e;
     background-color: #474747;
     height: 5px;
     width: 5%;
 }
-#services .well {
-min-height: 300px!important;
-background-color: #ffffff !important;
-transition: background-color 0.5s;
-border: none!important;
-box-shadow:none!important;
-    border-radius: 0px!important;
+#services .wellz {
+    min-height: 300px;
+    background-color: #ffffff;
+    padding-top: 1vh;
 }
 
 
 #BlueTrianglePath1 {
-    fill: #D0E0EB;
-    stroke: #D0E0EB;
+    fill: #eef4f7;
+    stroke: #eef4f7;
 }
 #BlueTrianglePath2 {
     fill: #88ABC2;

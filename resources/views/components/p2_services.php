@@ -8,62 +8,79 @@
 
 
             <a class="p2-transition p2-trigger" data-pii="premium-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="premium-trigger">
-                    <i class="fa fa-diamond fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['premiumtitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['premiumtext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="premium-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-diamond fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['premiumtitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['premiumtext'];?></p>
+                        <p class="readmore">Read more <i class="fa fa-angle-right"></i></p>
+                    </div>
                 </article>
             </a>
 
             <a class="p2-transition p2-trigger" data-pii="app-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="app-trigger">
-                    <i class="fa fa-connectdevelop fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['apptitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['apptext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="app-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-connectdevelop fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['apptitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['apptext'];?></p
+                    </div>
                 </article>
             </a>
             <a class="p2-transition p2-trigger" data-pii="seo-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="seo-trigger">
-                    <i class="fa fa-line-chart fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['seotitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['seotext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="seo-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-line-chart fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['seotitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['seotext'];?></p>
+                    </div>
                 </article>
             </a>
             <a class="p2-transition p2-trigger" data-pii="redesign-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="redesign-trigger">
-                    <i class="fa fa-medkit fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['redesigntitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['redesigntext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="redesign-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-medkit fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['redesigntitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['redesigntext'];?></p>
+                    </div>
                 </article>
             </a>
         </div>
         <div class="row text-center">
             <a class="p2-transition p2-trigger" data-pii="print-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="print-trigger">
-                    <i class="fa fa-print fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['printtitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['printtext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="print-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-print fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['printtitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['printtext'];?></p>
+                    </div>
                 </article>
             </a>
             <a class="p2-transition p2-trigger" data-pii="shop-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="shop-trigger">
-                    <i class="fa fa-shopping-cart fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['shoptitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['shoptext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="shop-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-shopping-cart fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['shoptitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['shoptext'];?></p>
+                    </div>
                 </article>
             </a>
             <a class="p2-transition p2-trigger" data-pii="biz-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="biz-trigger">
-                    <i class="fa fa-briefcase fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['biztitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['biztext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="biz-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-briefcase fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['biztitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['biztext'];?></p>
+                    </div>
                 </article>
             </a>
             <a class="p2-transition p2-trigger" data-pii="support-trigger" href="#">
-                <article class="col-sm-3 well p2-trigger" data-pii="support-trigger">
-                    <i class="fa fa-question-circle fa-4x"></i>
-                    <h3><?php echo $lang[$la]['p2']['supporttitle'];?></h3>
-                    <p><?php echo $lang[$la]['p2']['supporttext'];?></p>
+                <article class="col-sm-3 p2-trigger" data-pii="support-trigger">
+                    <div class="wellz">
+                        <i class="fa fa-question-circle fa-4x"></i>
+                        <h3><?php echo $lang[$la]['p2']['supporttitle'];?></h3>
+                        <p><?php echo $lang[$la]['p2']['supporttext'];?></p>
+                    </div>
                 </article>
             </a>
         </div>
