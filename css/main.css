@@ -374,8 +374,13 @@ color:#007!important;
     padding-right:1vw;
     padding-bottom: 1vh;
     margin-bottom: 5vh;
+    transition: all 0.5s ease;
 }
+#services .wellz:hover{
+    outline: 5px solid white;
+    transform: scale(1.05,1.05);
 
+}
 
 #BlueTrianglePath1 {
     fill: #eef4f7;
