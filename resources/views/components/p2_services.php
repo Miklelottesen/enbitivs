@@ -13,7 +13,7 @@
                         <i class="fa fa-diamond fa-4x icony"></i>
                         <h3><?php echo $lang[$la]['p2']['premiumtitle'];?></h3>
                         <p><?php echo $lang[$la]['p2']['premiumtext'];?></p>
-                        <p class="readmore">Read more <i class="fa fa-angle-right"></i></p>
+                        <p class="readmore">Read more ></p>
                     </div>
                 </article>
             </a>
