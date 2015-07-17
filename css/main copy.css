@@ -63,7 +63,7 @@ border-left-color: #111111;
     position: absolute;
     left: 0;
     width: 100%;
-    height: 2px!important;
+    height: 2px;
     background: #fff;
     content: '';
     opacity: 0;
@@ -76,7 +76,7 @@ border-left-color: #111111;
 }
 
 #navbar a::before {
-    top: 0px!important;
+    top: 0px;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -100,7 +100,6 @@ border-left-color: #111111;
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     transform: translateY(0px);
-    height:2px!important;
 }
 nav .active * {
 	color:#fff!important;
@@ -143,21 +142,12 @@ footer {
 #footerlogo {
     padding-top: 5vh;
 }
-
-.fb-like {
-    position:absolute;
-    left:50%;
-    margin-left:-122px;
-    margin-top: -40px;
+.fb-like{
     padding-top: 5vh;
     padding-bottom: 5vh;
+
+
 }
-
-#fbContainer {
-    height:60px;
-}
-
-
 #bottom-footer {
 	background-color:#000;
 	padding-top:5px;
@@ -236,7 +226,7 @@ font-weight: 400!important;
     stroke: #d6d6d6;
 }
 #TriangleShadow{
-    background-color: #ebebeb;
+    background-color: #006681;
 }
 .TriangleContainer{
     line-height: 0!important;
@@ -315,7 +305,7 @@ font-weight: 400!important;
 }
 
 #services {
-	background-color:#ebebeb!important;
+	background-color:#006681!important;
     padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -326,24 +316,23 @@ font-weight: 400!important;
 }
 #services h2 {
     margin-bottom: 40px!important;
-    color: rgb(74, 74, 74);
+    color: white;
     font-weight: 700;
     font-size: 40px;
     letter-spacing: -1px;
 }
 
 #services h3 {
-    font-size: 2em;
-    color: #353535;
+    font-size:2em;
+    color:white;
 }
 
 #services p {
-    font-size:1.3em;
-    color: #5b5b5b;
-    font-weight: 200;
+font-size:1.3em;
+    color:white;
 }
 #services i {
-    color: #353535;
+    color:white;
 }
 #services a {
 outline:1px solid #aaa!important;
@@ -354,19 +343,19 @@ color:#007!important;
 }
 #services hr{
     color: #0e0e0e;
-    background-color: #474747;
+    background-color: #ebebeb;
     height: 5px;
     width: 5%;
 }
 #services .well {
 min-height: 300px!important;
-background-color: #ebebeb !important;
+background-color:#006681!important;
 transition: background-color 0.5s;
 border: none!important;
 box-shadow:none!important;
 }
 #services .well:hover {
-background-color: #e2e2e2 !important;
+background-color: #005577 !important;
 }
 
 #BlueTrianglePath1 {
