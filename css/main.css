@@ -145,12 +145,12 @@ footer {
 }
 
 .fb-like {
-    position:absolute;
-    left:50%;
-    margin-left:-122px;
-    margin-top: -40px;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    position:absolute!important;
+    left:50%!important;
+    margin-left:-122px!important;
+    margin-top: -40px!important;
+    padding-top: 5vh!important;
+    padding-bottom: 5vh!important;
 }
 
 #fbContainer {
