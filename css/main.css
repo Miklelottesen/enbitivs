@@ -334,6 +334,9 @@ font-weight: 400!important;
 
 #services h3 {
     color: #49708A;
+    padding-bottom: 2vh;
+    letter-spacing: 1.5px;
+    font-weight: 300;
 }
 
 #services p {
@@ -364,9 +367,13 @@ color:#007!important;
     width: 5%;
 }
 #services .wellz {
-    min-height: 300px;
+    min-height: 320px;
     background-color: #ffffff;
-    padding-top: 1vh;
+    padding-top: 5vh;
+    padding-left: 1vw;
+    padding-right:1vw;
+    padding-bottom: 1vh;
+    margin-bottom: 5vh;
 }
 
 

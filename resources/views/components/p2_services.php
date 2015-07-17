@@ -10,7 +10,7 @@
             <a class="p2-transition p2-trigger" data-pii="premium-trigger" href="#">
                 <article class="col-sm-3 p2-trigger" data-pii="premium-trigger">
                     <div class="wellz">
-                        <i class="fa fa-diamond fa-4x"></i>
+                        <i class="fa fa-diamond fa-4x icony"></i>
                         <h3><?php echo $lang[$la]['p2']['premiumtitle'];?></h3>
                         <p><?php echo $lang[$la]['p2']['premiumtext'];?></p>
                         <p class="readmore">Read more <i class="fa fa-angle-right"></i></p>
