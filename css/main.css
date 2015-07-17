@@ -378,7 +378,7 @@ color:#007!important;
 }
 #services .wellz:hover{
     outline: 5px solid white;
-    transform: scale(1.05,1.05);
+    transform: scale(1.1,1.1) rotateX(5deg) rotateY(-7deg);
 
 }
 
