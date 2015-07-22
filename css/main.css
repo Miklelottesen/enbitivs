@@ -64,7 +64,7 @@ border-left-color: #111111;
     left: 0;
     width: 100%;
     height: 2px!important;
-    background: #fff;
+    background: rgba(49,176,213,1);
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -284,7 +284,7 @@ font-weight: 400!important;
 }
 
 .btn-5:active:before {
-    color: #703b87;
+    color: #262f87;
 }
 .btn-5a:hover span {
     -webkit-transform: translateY(300%);
@@ -301,6 +301,69 @@ font-weight: 400!important;
 .btn-5a:hover:before {
     top: 0;
     background-color: #002e3a;
+    color:#fff;
+}
+.btn-6 {
+    background: rgba(49,176,213,1);
+    color: #fff;
+    height: 70px;
+    min-width: 260px;
+    line-height: 52px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.btn-6:active {
+    background: #80d9f6;
+    top: 2px;
+}
+
+.btn-6 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.btn-6:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 2.5;
+    font-size: 180%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-6:active:before {
+    color: #262f87;
+}
+.btn-6a:hover span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+}
+
+.btn-6a:before {
+    left: 0;
+    top: -100%;
+}
+
+.btn-6a:hover:before {
+    top: 0;
+    background-color: #272727;
     color:#fff;
 }
 /*****************************
@@ -528,6 +591,74 @@ Services Description page
 }
 .about_picture{
     max-width: 400px;
+}
+.about_hr{
+    color: #0e0e0e;
+    background-color: #6d6d6d;
+    height: 5px;
+    width: 5%;
+}
+
+#about_us h2 {
+    margin-bottom: 40px!important;
+    color: #284357;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+#about_us h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#about_us .lead {
+    font-size: 23px;
+    line-height: 42px;
+    font-weight: 300;
+}
+
+    #hexagon {
+    width: 66px;
+    height: 104px;
+    background: rgba(49,176,213,1);
+    position: relative;
+    z-index:-1;
+    margin:0 auto;
+}
+#hexagon:before {
+    content: "";
+    left:-66px;
+    display:block;
+    position: relative;
+    border-right: 30px solid rgba(49,176,213,1);
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+#hexagon:after {
+    content: "";
+    right:-66px;
+    top:-104px;
+    position: relative;
+    display:block;
+    border-left: 30px solid rgba(49,176,213,1);
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+.hex-over {
+    z-index:5;
+    position:relative;
+    width:100%;
+    top:-100px;
+    text-align:center;
+    color:#fdfdfd;
+    font-size:69px;
+    padding:0 0px 1px 0px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.media-middle{
+    padding-left: 30px!important;
+    padding-right: 45px!important;
 }
 
 

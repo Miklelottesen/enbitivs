@@ -117,6 +117,10 @@ $(document).ready(function() {
         $("#contactForm").ScrollTo();
         return false;
     });
+    $("#calltoaction2").click(function(){
+        $("#contactForm").ScrollTo();
+        return false;
+    });
 });
 
 // Set active handlers
@@ -265,3 +269,14 @@ $(function(){
     );
 });
 
+$(function(){
+    $("#calltoaction2").hover(
+        function(){
+            $(".about_hr").animate({ "width" : "20%" },300);
+
+        },
+        function(){
+            $(".about_hr").animate({ "width" : "5%"},300);
+        }
+    );
+});
