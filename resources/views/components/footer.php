@@ -10,7 +10,8 @@
                      data-action="like"
                      data-show-faces="false"
                      data-share="true"
-                     data-adapt-container-width="true">
+                     data-adapt-container-width="true"
+                     data-width="100">
                 </div>
 
             </div>
