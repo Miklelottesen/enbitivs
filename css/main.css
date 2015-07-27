@@ -7,7 +7,9 @@
 .text-justify { /* Bootstrap'ish class for justified text */
 	text-align:justify!important;
 }
-
+h1{
+    margin:0;
+}
 
 
 
@@ -255,9 +257,12 @@ footer {
 }
 
 @media only screen and (max-width : 767px) {
-footer .col-sm-6{
+footer .col-sm-4, footer .col-sm-8{
     text-align:center;
 }
+}
+address{
+    margin-bottom: 0!important;
 }
 
 /*****************************
@@ -274,7 +279,15 @@ footer .col-sm-6{
 @media only screen and (max-width : 480px) {
 #introHeader{
     padding-top:5vh!important;
+    height:40vh!important;
 }
+    h1{
+        font-size:2em;
+    }
+    .lead{
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 #intro {
     padding-top: 5vh;
@@ -512,7 +525,7 @@ outline:1px solid #aaa!important;
 color:#000!important;
 }
 #services a:hover {
-color:#007!important;
+text-decoration: none!important;
 }
 .readmore, .readmore>i{
     text-transform: uppercase;
@@ -543,16 +556,20 @@ color:#007!important;
 #services .wellz:hover{
     outline: 5px solid white;
     transform: scale(1,1);
-
-
 }
+
+
 #services .wellz i{
     transition: all 0.5s;
 }
 #services .wellz:hover i{
     transform: rotate(10deg) scale(1.2,1.2);
+}
 
-
+@media only screen and (max-width : 460px) {
+    #services a:hover{
+        text-decoration:none;
+    }
 }
 
 #BlueTrianglePath1 {
