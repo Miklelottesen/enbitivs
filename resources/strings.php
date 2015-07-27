@@ -67,8 +67,8 @@
 	// P4_ABOUT US - en
 	$lang['en']['p4']['title'] = 'What makes us different?';
 	$lang['en']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
-	$lang['en']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that <strong>well designed website</strong> or <strong>interface</strong> makes
-                       both <strong>user\'s</strong> and <strong>client\'s</strong> lifes much easier.';
+	$lang['en']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that a <strong>well designed website</strong> or an<strong>interface</strong> makes
+                       both the <strong>user\'s</strong> and <strong>client\'s</strong> experience more pleasant, resulting in them coming back to <strong>your business website</strong> and <strong>using your service</strong> again.';
 	$lang['en']['p4']['secondtitle'] = 'Your clients ponytails will fly off and explode';
 	$lang['en']['p4']['secondtext'] = 'We focus on providing clear and usable design, by using the latest technologies we guarantee the best user experience';
 	$lang['en']['p4']['thirdtitle'] = 'Free kebab for every client! Oh, and traffic analysis as well';
