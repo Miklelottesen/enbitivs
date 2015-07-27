@@ -662,7 +662,13 @@ Services Description page
     padding-right: 45px!important;
 }
 
-
+.media-list{
+    padding-top:30px!important;
+}
+@media screen and (max-width: 768px) {
+    .media-body, .media-left, .media-right {
+        display: block!important;
+    }}
 /*****************************
 	P5 - CONTACT
 *****************************/

@@ -18,7 +18,7 @@
                    <p class="lead"><?php echo $lang[$la]['p4']['firsttext'];?></p>
                </div>
            </li>
-           <hr>
+
            <li class="media">
                <div class="media-left media-middle">
                    <div class="hexa text-center" id="hexagon"></div>
@@ -29,7 +29,7 @@
 
                </div>
            </li>
-           <hr>
+
            <li class="media">
                <div class="media-left media-middle">
                    <div class="hexa text-center" id="hexagon"></div>
@@ -42,7 +42,7 @@
        </ul>
    </div>
     <div class="row text-center">
-        <hr>
+
         <h3><?php echo $lang[$la]['p4']['precall'];?></h3>
         <hr class="about_hr">
         <p class="lead"><?php echo $lang[$la]['p4']['aboutcall'];?></p>
