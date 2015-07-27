@@ -1,5 +1,6 @@
  
   <nav role="navigation" id="navbar" class="navbar-fixed-top navbar-default">
+    <div id="navbar-spacer"></div>
     <div class="container-fluid col-md-1"></div>
     <div class="container-fluid col-md-10">
       <!-- Brand and toggle get grouped for better mobile display -->

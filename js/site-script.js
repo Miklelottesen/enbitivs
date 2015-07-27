@@ -3,7 +3,7 @@ $(document).ready(function() {
     var thank = $('#thanks');
     $(thank).hide();
     $(".errorMessage").css('display', 'none');
-
+    $("#navbar").css('height',55);
     console.log('miklelottesen@gmail'.split('@')[1].split('.').length);
 
     $('#submit_message').click(function(e) {
@@ -123,8 +123,9 @@ $(document).ready(function() {
     });
 });
 
-// Set active handlers
+// Set active handlers - scroll listener
 $(document).scroll(function(){
+    $("#navbar.container-fluid").css('height',55);
     dActive = 'topLink';
     dScrollPos = $(document).scrollTop();
     servicesScrollPos = Math.floor($("#services").position().top);
