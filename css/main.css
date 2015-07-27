@@ -486,6 +486,7 @@ Services Description page
 	background-color: transparent;
 	border-color:#fff!important;
 }
+
 #servicesList li, #servicesList li a, #servicesList ul {
 	float:none;
 	position: relative;
@@ -796,20 +797,4 @@ input[type=number]::-webkit-outer-spin-button {
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
-}
-#mailbox-address {
-	position:absolute;
-	left:50vw;
-	margin-top:-145px;
-	background-color: #fffee4;
-	padding:15px;
-	padding-right:90px;
-	margin-left:-380px;
-	border-radius:7px;
-	border:5px solid #841a24;
-/*	box-shadow: 1px 1px #630b14, -1px -1px #df5e6a;*/
-	font-family:monospace;
-}
-#mailbox-address strong {
-	font-family:monospace;
 }

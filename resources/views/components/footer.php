@@ -21,10 +21,10 @@
 
         <div id="bottom-footer" class="row">
             <div class="col-sm-6 text-left">
-				<p>Copyright &copy; 2015 - enbit IVS</p>
+                <address>enbit IVS CVR: 36930659   |   Sønderhøj 48, 8260 Viby J, Denmark</address>
 		    </div>
             <div class="col-sm-6 text-right">
-                <p>CVR: 36930659</>
+                <p>Copyright &copy; 2015 - <a href="http://enbit.dk">enbit IVS</a></p>
             </div>
 
         </div>

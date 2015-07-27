@@ -66,12 +66,25 @@
 
 	// P4_ABOUT US - en
 	$lang['en']['p4']['title'] = 'What makes us different?';
-	$lang['en']['p4']['vilius'] = 'Lithuanian dude';
-	$lang['en']['p4']['mikkel'] = 'Danish dude';
+	$lang['en']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
+	$lang['en']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that <strong>well designed website</strong> or <strong>interface</strong> makes
+                       both <strong>user\'s</strong> and <strong>client\'s</strong> lifes much easier.';
+	$lang['en']['p4']['secondtitle'] = 'Your clients ponytails will fly off and explode';
+	$lang['en']['p4']['secondtext'] = 'We focus on providing clear and usable design, by using the latest technologies we guarantee the best user experience';
+	$lang['en']['p4']['thirdtitle'] = 'Free kebab for every client! Oh, and traffic analysis as well';
+	$lang['en']['p4']['thirdtext'] = 'We are glad to see our happy clients. Our unique websites helps to attract them more clients. Happy client always comes back for more jolly time. We make sure of that by following analyzing your traffic statistics.';
+	$lang['en']['p4']['precall'] = 'Still not convinced? There are more';
+	$lang['en']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> estimates';
 	// P4_ABOUT US - da
-	$lang['da']['p4']['title'] = 'Om os';
-	$lang['da']['p4']['vilius'] = 'Lithuanian dude';
-	$lang['da']['p4']['mikkel'] = 'Danish dude';
+	$lang['da']['p4']['title'] = 'What makes us different?';
+	$lang['da']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
+	$lang['da']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that <strong>well designed website</strong> or <strong>interface</strong> makesdaboth <strong>user\'s</strong> and <strong>client\'s</strong> lifes much easier.';
+	$lang['da']['p4']['secondtitle'] = 'Your clients ponytails will fly off and explode';
+	$lang['da']['p4']['secondtext'] = 'We focus on providing clear and usable design, by using the latest technologies we guarantee the best user experience';
+	$lang['da']['p4']['thirdtitle'] = 'Free kebab for every client! Oh, and traffic analysis as well';
+	$lang['da']['p4']['thirdtext'] = 'We are glad to see our happy clients. Our unique websites helps to attract them more clients. Happy client always comes back for more jolly time. We make sure of that by following analyzing your traffic statistics.';
+	$lang['da']['p4']['precall'] = 'Still not convinced? There are more';
+	$lang['da']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> estimates';
 
     //P5_CONTACT - en
     $lang['en']['p5']['thanktitle'] = 'Thank you for your message';
