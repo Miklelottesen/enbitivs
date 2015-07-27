@@ -11,7 +11,7 @@
                      data-show-faces="false"
                      data-share="true"
                      data-adapt-container-width="true"
-                     data-width="100">
+                     data-width="120">
                 </div>
 
             </div>
