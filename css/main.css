@@ -80,7 +80,9 @@ border-left-color: #111111;
 	color: #afafaf;
 	font-size:19px;
 }
-
+#navbar a:visited{
+    text-decoration: none;
+}
 #navbar a::before,
 #navbar a::after {
     position: absolute;
@@ -269,9 +271,9 @@ footer .col-sm-6{
 	text-align: center;
 	color:#fff!important;
 }
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width : 480px) {
 #introHeader{
-    padding-top:10vh!important;
+    padding-top:5vh!important;
 }
 }
 #intro {
