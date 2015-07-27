@@ -15,7 +15,7 @@
 	$lang['da']['nav']['lang'] = 'English';
 
 	// P1_header/intro - en
-	$lang['en']['p1']['slogan'] = 'Websites, apps and more..';
+	$lang['en']['p1']['slogan'] = 'We create business websites that makes your business a web success';
 	$lang['en']['p1']['introtitle'] = 'Who we are';
 	$lang['en']['p1']['introtext'] = 'We are a web agency located in Aarhus, Denmark. We create web- and app based solutions, tailor-made for our clients to make them stand out, and allow for flexibility.';
 	$lang['en']['p1']['introcall'] = 'You’re one step from getting it right';
@@ -67,25 +67,23 @@
 	// P4_ABOUT US - en
 	$lang['en']['p4']['title'] = 'What makes us different?';
 	$lang['en']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
-	$lang['en']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that a <strong>well designed website</strong> or an <strong>interface</strong> makes
-                       both the <strong>user\'s</strong> and <strong>client\'s</strong> experience more pleasant, resulting in them coming back to <strong>your business website</strong> and <strong>using your service</strong> again.';
-	$lang['en']['p4']['secondtitle'] = 'Your clients ponytails will fly off and explode';
-	$lang['en']['p4']['secondtext'] = 'We focus on providing clear and usable design, by using the latest technologies we guarantee the best user experience';
-	$lang['en']['p4']['thirdtitle'] = 'Free kebab for every client! Oh, and traffic analysis as well';
-	$lang['en']['p4']['thirdtext'] = 'We are glad to see our happy clients. Our unique websites helps to attract them more clients. Happy client always comes back for more jolly time. We make sure of that by following analyzing your traffic statistics.';
+	$lang['en']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that a <strong>well designed website</strong> or an <strong>interface</strong> makes both the <strong>user\'s</strong> and <strong>client\'s</strong> experience more pleasant, resulting in them coming back to <strong>your business website</strong> and <strong>using your service</strong> again.';
+	$lang['en']['p4']['secondtitle'] = 'Everything we build for you is 100% custom made';
+	$lang['en']['p4']['secondtext'] = 'We <strong>focus on</strong> providing <strong>clear</strong> and <strong>usable design</strong>, by using the <strong>latest technologies</strong> we guarantee the <strong>best user experience</strong>. Unlike most other agencies we create <strong>unique design</strong> - you will never see the same website built for someone else.';
+	$lang['en']['p4']['thirdtitle'] = 'We care about your business';
+	$lang['en']['p4']['thirdtext'] = 'We are glad to see our <strong>happy clients</strong>. We make sure that everything is <strong>updated</strong> and <strong>working perfectly</strong> by following and <strong>analyzing</strong> your traffic <strong>statistics</strong>. Our <strong>support</strong> is <strong>flaweless</strong>, you will never have to wait for us to <strong>answer your questions</strong>';
 	$lang['en']['p4']['precall'] = 'Still not convinced? There are more';
-	$lang['en']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> estimates';
+	$lang['en']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> price estimates';
 	// P4_ABOUT US - da
-	$lang['da']['p4']['title'] = 'What makes us different?';
+	$lang['dada']['p4']['title'] = 'What makes us different?';
 	$lang['da']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
-	$lang['da']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that <strong>well designed website</strong> or <strong>interface</strong> makesdaboth <strong>user\'s</strong> and <strong>client\'s</strong> lifes much easier.';
-	$lang['da']['p4']['secondtitle'] = 'Your clients ponytails will fly off and explode';
-	$lang['da']['p4']['secondtext'] = 'We focus on providing clear and usable design, by using the latest technologies we guarantee the best user experience';
-	$lang['da']['p4']['thirdtitle'] = 'Free kebab for every client! Oh, and traffic analysis as well';
-	$lang['da']['p4']['thirdtext'] = 'We are glad to see our happy clients. Our unique websites helps to attract them more clients. Happy client always comes back for more jolly time. We make sure of that by following analyzing your traffic statistics.';
+	$lang['da']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that a <strong>well designed website</strong> or an <strong>interface</strong> makesboth the <strong>user\'s</strong> and <strong>client\'s</strong> experience more pleasant, resulting in them coming back to <strong>your business website</strong> and <strong>using your service</strong> again.';
+	$lang['da']['p4']['secondtitle'] = 'Everything we build for you is 100% custom made';
+	$lang['da']['p4']['secondtext'] = 'We <strong>focus on</strong> providing <strong>clear</strong> and <strong>usable design</strong>, by using the <strong>latest technologies</strong> we guarantee the <strong>best user experience</strong>. Unlike most other agencies we create <strong>unique design</strong> - you will never see the same website built for someone else.';
+	$lang['da']['p4']['thirdtitle'] = 'We care about your business';
+	$lang['da']['p4']['thirdtext'] = 'We are glad to see our <strong>happy clients</strong>. We make sure that everything is <strong>updated</strong> and <strong>working perfectly</strong> by following and <strong>analyzing</strong> your traffic <strong>statistics</strong>. Our <strong>support</strong> is <strong>flaweless</strong>, you will never have to wait for us to <strong>answer your questions</strong>';
 	$lang['da']['p4']['precall'] = 'Still not convinced? There are more';
-	$lang['da']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> estimates';
-
+	$lang['da']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> price estimates';
     //P5_CONTACT - en
     $lang['en']['p5']['thanktitle'] = 'Thank you for your message';
     $lang['en']['p5']['thanktext'] = 'We will get back to you as soon as possible.';
@@ -99,7 +97,7 @@
     $lang['en']['p5']['formphoneplaceholder'] = 'Please enter your phone number... (optional)';
     $lang['en']['p5']['formmessage'] = 'Message';
     $lang['en']['p5']['formmessageplaceholder'] = 'Your Message...';
-    $lang['en']['p5']['formcheckbox'] = ' I would like to receive a call from you';
+    $lang['en']['p5']['formcheckbox'] = ' I would like to receive a phone call from you';
     $lang['en']['p5']['formsubmit'] = 'Send';
 
 	//P5_CONTACT - da
