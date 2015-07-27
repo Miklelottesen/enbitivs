@@ -130,15 +130,16 @@ $(document).ready(function() {
     $(document).click(function(){
         // Check if mobile menu is expanded
         if(!$(".navbar-toggle").hasClass('collapsed')) {
+            // If expanded, hide the menu when any place on document is clicked
             $("#bs-example-navbar-collapse-1").collapse('toggle');
-        } else {
-            //
-        }
+        } 
     });
+    // Navbar any link listener
     $("#navbar").find("a").click(function(){
+        // Check if mobile menu is expanded
         if(!$(".navbar-toggle").hasClass('collapsed')) {
+            // If expanded, hide it when a navbar link is clicked
             $("#bs-example-navbar-collapse-1").collapse('toggle');
-            console.log('Clicked navbar link');
         }
     });
 });
