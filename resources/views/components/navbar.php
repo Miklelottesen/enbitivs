@@ -12,7 +12,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="img/logo_main.png" alt="main enbit.dk logo"></a><!-- LOGO -->
+        <a class="navbar-brand" href="#"><h1><img src="img/logo_main.png" alt="enbit.dk"></h1></a><!-- LOGO -->
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
