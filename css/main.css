@@ -278,11 +278,11 @@ address{
 }
 @media only screen and (max-width : 480px) {
 #introHeader{
-    padding-top:5vh!important;
-    height:40vh!important;
+    padding-top:55px!important;
+    height:60vh!important;
 }
-    h1{
-        font-size:2em;
+    h2{
+        font-size:1.5em;
     }
     .lead{
         padding-left:10px;
