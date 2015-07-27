@@ -4,43 +4,41 @@
         <hr class="about_hr">
 
     </div>
-   <div class="row">
 
 
-       <ul class="media-list">
-           <li class="media">
-               <div class="media-left media-middle">
-                   <div class="hexa text-center" id="hexagon"></div>
-                   <div class="hex-over">1</div>
-               </div>
-               <div class="media-body">
-                   <h3 class="media-heading"><?php echo $lang[$la]['p4']['firsttitle'];?></h3>
-                   <p class="lead"><?php echo $lang[$la]['p4']['firsttext'];?></p>
-               </div>
-           </li>
+    <div class="row differentlist">
+        <div class="col-md-2">
+            <div class="hexa text-center" id="hexagon"></div>
+            <div class="hex-over">1</div>
+        </div>
+        <div class="col-md-10">
+            <h3 class="media-heading"><?php echo $lang[$la]['p4']['firsttitle'];?></h3>
+            <p class="lead"><?php echo $lang[$la]['p4']['firsttext'];?></p>
+        </div>
+    </div>
 
-           <li class="media">
-               <div class="media-left media-middle">
-                   <div class="hexa text-center" id="hexagon"></div>
-                   <div class="hex-over">2</div></div>
-               <div class="media-body">
-                   <h3 class="media-heading"><?php echo $lang[$la]['p4']['secondtitle'];?></h3>
-                   <p class="lead"><?php echo $lang[$la]['p4']['secondtext'];?></p>
+    <div class="row differentlist">
+        <div class="col-md-2">
+            <div class="hexa text-center" id="hexagon"></div>
+            <div class="hex-over">2</div>
+        </div>
+        <div class="col-md-10">
+            <h3 class="media-heading"><?php echo $lang[$la]['p4']['secondtitle'];?></h3>
+            <p class="lead"><?php echo $lang[$la]['p4']['secondtext'];?></p>
+        </div>
+    </div>
 
-               </div>
-           </li>
+    <div class="row differentlist">
+        <div class="col-md-2">
+            <div class="hexa text-center" id="hexagon"></div>
+            <div class="hex-over">3</div>
+        </div>
+        <div class="col-md-10">
+            <h3 class="media-heading"><?php echo $lang[$la]['p4']['thirdtitle'];?></h3>
+            <p class="lead"><?php echo $lang[$la]['p4']['thirdtext'];?></p>
+        </div>
+    </div>
 
-           <li class="media">
-               <div class="media-left media-middle">
-                   <div class="hexa text-center" id="hexagon"></div>
-                   <div class="hex-over">3</div> </div>
-               <div class="media-body">
-                   <h3 class="media-heading"><?php echo $lang[$la]['p4']['thirdtitle'];?></h3>
-                   <p class="lead"><?php echo $lang[$la]['p4']['thirdtext'];?></p>
-               </div>
-           </li>
-       </ul>
-   </div>
     <div class="row text-center">
 
         <h3><?php echo $lang[$la]['p4']['precall'];?></h3>

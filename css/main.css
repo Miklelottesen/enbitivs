@@ -512,6 +512,10 @@ color:#007!important;
     height: 5px;
     width: 5%;
 }
+
+#services .wellwrap{
+    border-width: 0px;
+}
 #services .wellz {
     min-height: 320px;
     background-color: #ffffff;
@@ -576,9 +580,7 @@ color:#007!important;
 #GrayTriangleShadow{
     background-color: #272727;
 }
-.about_picture{
-    max-width: 400px;
-}
+
 .about_hr{
     background-color: #6d6d6d;
     height: 5px;
@@ -599,6 +601,20 @@ color:#007!important;
     font-weight: 600;
     color: #444;
 }
+.differentlist{
+    padding-top:3vh;
+}
+
+
+@media only screen and (max-width : 990px) {
+#about_us .col-md-10{
+text-align:center!important;
+    margin-bottom: 5vh;
+}
+    #about_us .col-md-2{
+        margin-bottom: -75px!important;
+    }
+}
 #about_us .lead {
     font-size: 23px;
     line-height: 35px;
@@ -609,7 +625,7 @@ color:#007!important;
     font-weight: 400;
 }
 
-    #hexagon {
+#hexagon {
     width: 66px;
     height: 104px;
     background: rgba(49,176,213,1);
@@ -649,18 +665,7 @@ color:#007!important;
     letter-spacing:2px;
 }
 
-.media-middle{
-    padding-left: 30px!important;
-    padding-right: 45px!important;
-}
 
-.media-list{
-    padding-top:30px!important;
-}
-@media screen and (max-width: 768px) {
-    .media-body, .media-left, .media-right {
-        display: block!important;
-    }}
 /*****************************
 	P5 - CONTACT
 *****************************/

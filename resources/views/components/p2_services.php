@@ -1,11 +1,7 @@
 <main id="services" class="container-fluid">
 <h2 class="text-center"><?php echo $lang[$la]['p2']['servicestitle'];?></h2>
 <hr class="p2-hr">
-        <div class="row text-center">
-
-        
-
-
+        <div class="row text-center wellwrap">
             <a href="#">
                 <article class="col-sm-4">
                     <div class="wellz">
