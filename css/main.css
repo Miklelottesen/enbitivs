@@ -230,18 +230,7 @@ footer {
     padding-top: 5vh;
 }
 
-.fb-like {
-    position:absolute!important;
-    left:50%!important;
-    margin-left:-122px!important;
-    margin-top: -40px!important;
-    padding-top: 5vh!important;
-    padding-bottom: 5vh!important;
-}
 
-#fbContainer {
-    height:60px;
-}
 
 
 #bottom-footer {
