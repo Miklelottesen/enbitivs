@@ -75,7 +75,7 @@
 	$lang['en']['p4']['precall'] = 'Still not convinced? There are more';
 	$lang['en']['p4']['aboutcall'] = 'Make an inquiry and get <strong>FREE</strong> price estimates';
 	// P4_ABOUT US - da
-	$lang['dada']['p4']['title'] = 'What makes us different?';
+	$lang['da']['p4']['title'] = 'What makes us different?';
 	$lang['da']['p4']['firsttitle'] = 'Your website or an app will be a pleasure to use';
 	$lang['da']['p4']['firsttext'] = '<strong>enbit.dk</strong> believes that a <strong>well designed website</strong> or an <strong>interface</strong> makesboth the <strong>user\'s</strong> and <strong>client\'s</strong> experience more pleasant, resulting in them coming back to <strong>your business website</strong> and <strong>using your service</strong> again.';
 	$lang['da']['p4']['secondtitle'] = 'Everything we build for you is 100% custom made';
