@@ -5,6 +5,7 @@
     <div class="container-fluid col-md-10">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+        <div id="mobile-active"></div>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -23,6 +24,7 @@
           <li><a id="aboutLink" href="#"><?php echo $lang[$la]['nav']['about']; ?></a></li>
           <li><a id="contactLink" href="#"><?php echo $lang[$la]['nav']['contact']; ?></a></li>
             <li class="hidden-xs"><hr class="dividerr"></li>
+            <li><hr id="mobile-nav-hr"></li>
           <li><a href="resources/changelang.php?lang=<?php echo $la; ?>"><?php echo $lang[$la]['nav']['lang']; ?></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->

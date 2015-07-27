@@ -65,6 +65,15 @@ border-left-color: #111111;
     transition: color 0.3s;
 }
 
+#mobile-active {
+	display:none;
+	position: absolute;
+	right: 80px;
+	top: 10px;
+	color: #afafaf;
+	font-size:19px;
+}
+
 #navbar a::before,
 #navbar a::after {
     position: absolute;
@@ -80,6 +89,51 @@ border-left-color: #111111;
 /*    -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     transform: translateY(-10px);*/
+}
+@media only screen and (max-width : 768px) {
+	#navbar a::before,
+	#navbar a::after {
+		display:none;
+	}
+	#navbar a {
+		background-color:#000!important;
+		transition: all 0.5s;
+	}
+/*	#navbar a:focus {
+		background-color:#000!important;
+	}*/
+	#navbar .active a {
+		background-color:#fff!important;
+		color:#000!important;
+	}
+	.navbar-collapse {
+		background-color:#000;
+		border-color:transparent!important;
+	}
+	#mobile-active {
+		display:block;
+		color:#ddd!important;
+	}
+	#mobile-nav-hr {
+		margin: 0;
+		border-color: #595858;
+	}
+	.navbar-toggle {
+		border-radius:0px!important;
+		background-color:#fff!important;
+		border-color:#aaa!important;
+		transition: background-color 0.3s;
+	}
+	.navbar-toggle .icon-bar {
+		background-color:#000!important;
+		transition: background-color 0.3s;
+	}
+	#navbar .collapsed {
+		background-color:#000!important;
+	}
+	#navbar .collapsed .icon-bar {
+		background-color:#fff!important;
+	}
 }
 
 #navbar a::before {

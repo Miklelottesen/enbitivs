@@ -6,6 +6,11 @@ $(document).ready(function() {
     $("#navbar").css('height',55);
     console.log('miklelottesen@gmail'.split('@')[1].split('.').length);
 
+    // Set mobile active text
+    var activeText = $(".active > a").text();
+    $("#mobile-active").empty();
+    $("#mobile-active").append(activeText);
+
     $('#submit_message').click(function(e) {
         if(formCheckValid()) {
             email = $("#youremail").val();
@@ -121,6 +126,21 @@ $(document).ready(function() {
         $("#contactForm").ScrollTo();
         return false;
     });
+    // Document click listeners
+    $(document).click(function(){
+        // Check if mobile menu is expanded
+        if(!$(".navbar-toggle").hasClass('collapsed')) {
+            $("#bs-example-navbar-collapse-1").collapse('toggle');
+        } else {
+            //
+        }
+    });
+    $("#navbar").find("a").click(function(){
+        if(!$(".navbar-toggle").hasClass('collapsed')) {
+            $("#bs-example-navbar-collapse-1").collapse('toggle');
+            console.log('Clicked navbar link');
+        }
+    });
 });
 
 // Set active handlers - scroll listener
@@ -149,6 +169,9 @@ $(document).scroll(function(){
         console.log('New active');
         $('.active').removeClass('active');
         $("#"+dActive).parent('li').addClass('active');
+        var activeText = $("#"+dActive).text();
+        $("#mobile-active").empty();
+        $("#mobile-active").append(activeText);
     }
 });
 
