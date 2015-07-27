@@ -102,6 +102,9 @@ border-left-color: #111111;
 	#navbar a::after {
 		display:none;
 	}
+	#navbar {
+		background-color:rgba(0,0,0,1)!important;
+	}
 	#navbar a {
 		background-color:#000!important;
 		transition: all 0.5s;
